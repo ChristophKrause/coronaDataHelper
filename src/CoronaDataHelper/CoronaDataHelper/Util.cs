@@ -16,6 +16,18 @@ namespace CoronaDataHelper {
 		internal static JSONCoronaVirusData getJSONData(string strjSONURL, string strFileNameJSON) {
 			string strJSON;
 
+			if (!string.IsNullOrWhiteSpace(strFileNameJSON) && File.Exists(strFileNameJSON)) {
+				FileInfo oFileInfo = new FileInfo(strFileNameJSON);
+				TimeSpan ts = DateTime.Now - oFileInfo.CreationTime;
+				Console.WriteLine("ts.TotalHours:" + ts.TotalHours);
+				if (ts.TotalHours > 11) {
+					try {
+						Console.WriteLine("Deleting old file");
+						File.Delete(strFileNameJSON);
+					} catch { }
+				}
+			}
+
 			if (string.IsNullOrWhiteSpace(strFileNameJSON)) {
 				Console.WriteLine("Downloading Data");
 				strJSON = Util.downloadPageSource(strjSONURL);

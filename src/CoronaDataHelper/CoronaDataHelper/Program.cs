@@ -1,9 +1,13 @@
 ﻿using CoronaDataHelper.Data;
-
+using Covid19;
+using Covid19.Classes;
 using Newtonsoft.Json;
 using SpreadsheetLight;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace CoronaDataHelper {
 
@@ -11,6 +15,30 @@ namespace CoronaDataHelper {
 		private const string JSONURL = "https://covid.ourworldindata.org/data/owid-covid-data.json";
 
 		private static void Main(string[] args) {
+			processMethod1();
+			//Task t = processMethod2Async();
+			//t.Wait();
+		}
+
+		private static async System.Threading.Tasks.Task processMethod2Async() {
+			try {
+				CovidAPIClient client = new CovidAPIClient();
+			Console.WriteLine("Get data");
+			//Country slugs available at https://api.covid19api.com/countries
+			List<Country> result = await client.GetTotalCountryDataAsync("spain");
+			Console.WriteLine("Got data");
+				int iOld = 0;
+			foreach (var item in result) {
+					
+				Console.WriteLine(item.UpdateDate + " " + (item.Confirmed- iOld));
+					iOld = item.Confirmed;
+				}
+			} catch (Exception e) {
+				Console.WriteLine("Error:" + e);
+			}
+		}
+
+		private static void processMethod1() {
 			try {
 				const string strFileNameJSON = "coronavirus-source-data.json";
 				const string strFileNameExcelx = "coronadata.xlsx";
@@ -37,7 +65,7 @@ namespace CoronaDataHelper {
 			//Date ITA ESP USA  DEU  FRA  IRN  GBR NLD BEL SWE BRA
 
 			Console.WriteLine("OPEN Excel " + strFileNameExcelx);
-			SLDocument sl = new SLDocument(strFileNameExcelx);
+			SLDocument sl = new SLDocument(strFileNameExcelx, "current");
 			//validate
 			var strValue = sl.GetCellValueAsString("E1");
 			validateFile(sl);
