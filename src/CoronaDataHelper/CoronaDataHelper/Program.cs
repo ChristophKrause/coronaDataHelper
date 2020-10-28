@@ -60,6 +60,7 @@ namespace CoronaDataHelper {
 			}
 		}
 		private static void processXLSXDeath(string strFileNameExcelx, JSONCoronaVirusData result) {
+		
 			//XLSX Layout:
 			//Date	Italy	Spain 	USA 	Germany	France	Iran	UK	Netherlands	Belgium	Sweden	Brazil
 			//Date ITA ESP USA  DEU  FRA  IRN  GBR NLD BEL SWE BRA
@@ -67,7 +68,7 @@ namespace CoronaDataHelper {
 			Console.WriteLine("OPEN Excel " + strFileNameExcelx);
 			SLDocument sl = new SLDocument(strFileNameExcelx, "death");
 			//validate
-			var strValue = sl.GetCellValueAsString("E1");
+			
 			validateFile(sl);
 
 			//	Console.WriteLine("strValue:" + strValue);
@@ -104,13 +105,13 @@ namespace CoronaDataHelper {
 			Console.WriteLine("OPEN Excel " + strFileNameExcelx);
 			SLDocument sl = new SLDocument(strFileNameExcelx, "infected");
 			//validate
-			var strValue = sl.GetCellValueAsString("E1");
+			
 			validateFile(sl);
 
 			//	Console.WriteLine("strValue:" + strValue);
 			//Console.WriteLine(result.DEU.data[1].date + ":" + result.DEU.data[1].new_cases);
 
-			setData(sl, result.ITA,"B", ERow.infected);
+			setData(sl, result.ITA, "B", ERow.infected);
 			setData(sl, result.ESP, "C", ERow.infected);
 			setData(sl, result.USA, "D", ERow.infected);
 			setData(sl, result.DEU, "E", ERow.infected);
@@ -123,7 +124,7 @@ namespace CoronaDataHelper {
 			setData(sl, result.BRA, "L", ERow.infected);
 			setData(sl, result.IRL, "M", ERow.infected);
 
-			
+
 			Console.WriteLine("save Excel " + strFileNameExcelx);
 
 			sl.Save();
@@ -134,6 +135,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oIRL.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
@@ -143,6 +147,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oESP.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
@@ -152,16 +159,27 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oUSA.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, DEU oDEU, String strColumn, ERow eRow) {
+			Console.WriteLine(" oDEU.data.Length:" + oDEU.data.Length);
+			//sl.ClearCellContent(strColumn + "2", strColumn + "" + oDEU.data.Length);
 			for (int i = 1; i < oDEU.data.Length; i++) {
 				int iValue = (int)oDEU.data[i].new_cases;
 				if (eRow == ERow.death) {
 					iValue = (int)oDEU.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
+				//Console.WriteLine(i + " " + sl.GetCellFormula(strColumn + "" + (i + 1)));
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
+			
+			//	Console.WriteLine(i + " " + sl.GetCellFormula(strColumn + "" + (i + 1)) + " "+ sl.GetCellValueAsString(strColumn + "" + (i + 1)));
+					sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, FRA oFRA, String strColumn, ERow eRow) {
@@ -170,6 +188,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oFRA.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
@@ -179,6 +200,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oIRN.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		}
@@ -188,6 +212,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oGBR.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
 			}
 		}
@@ -197,6 +224,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oBEL.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
@@ -206,6 +236,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oSWE.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
@@ -215,6 +248,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oBRA.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		}
@@ -224,6 +260,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oNLD.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		}
@@ -234,6 +273,9 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oiTA.data[i].new_deaths;
 				}
+				sl.SetCellValue(strColumn + "" + (i + 1), "=SUM(B2:B11)");
+				sl.ClearCellContent(strColumn + "" + (i + 1), strColumn + "" + (i + 1));
+				sl.SetCellValue(strColumn + "" + (i + 1), "11");
 				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		
