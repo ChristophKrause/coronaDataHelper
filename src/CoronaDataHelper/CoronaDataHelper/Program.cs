@@ -134,7 +134,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oIRL.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, ESP oESP, String strColumn, ERow eRow) {
@@ -143,7 +143,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oESP.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, USA oUSA, String strColumn, ERow eRow) {
@@ -152,7 +152,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oUSA.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, DEU oDEU, String strColumn, ERow eRow) {
@@ -161,7 +161,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oDEU.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, FRA oFRA, String strColumn, ERow eRow) {
@@ -170,7 +170,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oFRA.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, IRN oIRN, String strColumn, ERow eRow) {
@@ -179,7 +179,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oIRN.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		}
 		private static void setData(SLDocument sl, GBR oGBR, String strColumn, ERow eRow) {
@@ -197,7 +197,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oBEL.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, SWE oSWE, String strColumn, ERow eRow) {
@@ -206,7 +206,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oSWE.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue);
 			}
 		}
 		private static void setData(SLDocument sl, BRA oBRA, String strColumn, ERow eRow) {
@@ -215,7 +215,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oBRA.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		}
 		private static void setData(SLDocument sl, NLD oNLD, String strColumn, ERow eRow) {
@@ -224,7 +224,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oNLD.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		}
 		private static void setData(SLDocument sl, ITA oiTA, String strColumn, ERow eRow) {
@@ -234,7 +234,7 @@ namespace CoronaDataHelper {
 				if (eRow == ERow.death) {
 					iValue = (int)oiTA.data[i].new_deaths;
 				}
-				sl.SetCellValue(strColumn + "" + (i + 1), iValue + "");
+				sl.SetCellValue(strColumn + "" + (i + 1), iValue );
 			}
 		
 		}
