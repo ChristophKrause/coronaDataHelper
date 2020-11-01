@@ -51,6 +51,7 @@ namespace CoronaDataHelper.Processor {
 			setData(sl, result.SWE, "K", eDataType);
 			setData(sl, result.BRA, "L", eDataType);
 			setData(sl, result.IRL, "M", eDataType);
+			setData(sl, result.CAN, "N", eDataType);
 
 			Console.WriteLine("save Excel " + strFileNameExcelx);
 
@@ -74,7 +75,7 @@ namespace CoronaDataHelper.Processor {
 
 		private static readonly Dictionary<string, string> s_oDictCellToCountryName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Italy"},{"C1","Spain"},{"D1","USA"},{"E1","Germany"},{"F1","France"},{"G1","Iran"},
-			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"}
+			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"}
 		};
 
 		private static void validateFile(SLDocument sl) {
