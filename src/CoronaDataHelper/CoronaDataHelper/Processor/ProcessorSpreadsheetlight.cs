@@ -3,6 +3,7 @@ using CoronaDataHelper.JSON;
 using SpreadsheetLight;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 
 namespace CoronaDataHelper.Processor {
@@ -61,13 +62,29 @@ namespace CoronaDataHelper.Processor {
 		private static void setData(SLDocument sl, JSONCountry oJSONCountry, String strColumn, EDataType eRow) {
 			var oData = oJSONCountry.data;
 
-			for (int i = 1; i < oData.Length; i++) {
+			int iRowModifier = 0;
+			if (oData[0].date == "2019-12-31") {
+				iRowModifier = 2;
+			} else if (oData[0].date == "2020-01-22") {
+				iRowModifier = 25;
+			} else if (oData[0].date == "2020-01-23") {
+				iRowModifier = 26;
+			} else {
+				throw new Exception("Invalid value:" + oData[0].date + " strColumn:" + strColumn);
+			}
+
+			for (int i = 0; i < oData.Length; i++) {
 				int iValue = (int)oData[i].new_cases;
 				if (eRow == EDataType.death) {
 					iValue = (int)oData[i].new_deaths;
 				}
-				string strrowIndex = strColumn + "" + (i + 1);
 
+				
+
+				string strrowIndex = strColumn + "" + (i + iRowModifier);
+				if (strColumn == "E") {
+					Debug.WriteLine(strrowIndex+" "+ iValue + "    oData[0].date:" + oData[i].date);
+				}
 				sl.ClearCellContent(strrowIndex, strrowIndex);
 				sl.SetCellValue(strrowIndex, iValue);
 			}
