@@ -66,9 +66,9 @@ namespace CoronaDataHelper.Processor {
 			if (oData[0].date == "2019-12-31") {
 				iRowModifier = 2;
 			} else if (oData[0].date == "2020-01-22") {
-				iRowModifier = 25;
+				iRowModifier = 24;
 			} else if (oData[0].date == "2020-01-23") {
-				iRowModifier = 26;
+				iRowModifier = 25;
 			} else {
 				throw new Exception("Invalid value:" + oData[0].date + " strColumn:" + strColumn);
 			}
