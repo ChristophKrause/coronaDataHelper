@@ -60,6 +60,8 @@ namespace CoronaDataHelper.Processor {
 		}
 
 		private static void setData(SLDocument sl, JSONCountry oJSONCountry, String strColumn, EDataType eRow) {
+			Console.WriteLine("column: " + strColumn+" setData: " + oJSONCountry.location);
+
 			var oData = oJSONCountry.data;
 
 			int iRowModifier = 0;
