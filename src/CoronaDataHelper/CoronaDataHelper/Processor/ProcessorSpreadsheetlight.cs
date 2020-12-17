@@ -65,12 +65,31 @@ namespace CoronaDataHelper.Processor {
 			var oData = oJSONCountry.data;
 
 			int iRowModifier = 0;
+			//not generic to get a message if the data is changed 
 			if (oData[0].date == "2019-12-31") {
 				iRowModifier = 2;
 			} else if (oData[0].date == "2020-01-22") {
 				iRowModifier = 24;
 			} else if (oData[0].date == "2020-01-23") {
 				iRowModifier = 25;
+			} else if (oData[0].date == "2020-01-24") {
+				iRowModifier = 26;
+			} else if (oData[0].date == "2020-01-26") {
+				iRowModifier = 28;
+			} else if (oData[0].date == "2020-01-27") {
+				iRowModifier = 29;
+			} else if (oData[0].date == "2020-01-31") {
+				iRowModifier = 33;
+			} else if (oData[0].date == "2020-02-01") {
+				iRowModifier = 34;
+			} else if (oData[0].date == "2020-02-02") {
+				iRowModifier = 35;
+			} else if (oData[0].date == "2020-02-19") {
+				iRowModifier = 52;
+			} else if (oData[0].date == "2020-02-26") {
+				iRowModifier = 59;
+			} else if (oData[0].date == "2020-02-29") {
+				iRowModifier = 62;
 			} else {
 				throw new Exception("Invalid value:" + oData[0].date + " strColumn:" + strColumn);
 			}
