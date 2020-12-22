@@ -1,4 +1,5 @@
-﻿using CoronaDataHelper.DataSource;
+﻿using System;
+using CoronaDataHelper.DataSource;
 using CoronaDataHelper.Interface;
 
 namespace CoronaDataHelper.Processor {
@@ -14,8 +15,10 @@ namespace CoronaDataHelper.Processor {
 		internal static IDataSource getDataSource(EDataProvider edataprovider) {
 			switch (edataprovider) {
 				case EDataProvider.OurWorldInData:
+					Console.WriteLine("Using "+nameof(DataSourceOurworldIndata));
 					return new DataSourceOurworldIndata();
 				case EDataProvider.Worldometer:
+					Console.WriteLine("Using " + nameof(DataSourceWorldometer));
 					return new DataSourceWorldometer();
 				
 				default:

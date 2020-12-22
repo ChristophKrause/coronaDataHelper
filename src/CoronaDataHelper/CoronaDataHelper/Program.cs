@@ -22,25 +22,33 @@ namespace CoronaDataHelper {
 						Console.WriteLine(strDataProvider);
 					}
 
-					Console.WriteLine("Example:CoronaDataHelper.exe  coronadata_worldometer.xlsx "+EDataProvider.Worldometer);
+					Console.WriteLine("Example:CoronaDataHelper.exe  coronadata_worldometer.xlsx " + EDataProvider.Worldometer);
 					return;
 				}
 				//ScraperWorldometer oScraperWorldometer = new ScraperWorldometer();
 				//oScraperWorldometer.processUrl("https://www.worldometers.info/coronavirus/country/germany/");
-			//	return;
+				//	return;
 				string strFilename = args[0];
 				if (string.IsNullOrWhiteSpace((strFilename))) {
-					throw new  Exception("No Filename");
+					throw new Exception("No Filename");
 				}
 				if (!File.Exists(strFilename)) {
 					throw new Exception("Can not find ExcelFile:" + strFilename);
 				}
-				IDataSource oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
-				oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
+
+				IDataSource oIDataSource;
+				if (args[1].Equals(EDataProvider.Worldometer.ToString())) {
+					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
+				} else if (args[1].Equals(EDataProvider.OurWorldInData.ToString())) {
+					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
+				} else {
+					throw new Exception("Unknown data provider" + args[1]);
+				}
+				
 				JSONCoronaVirusData oJSONCoronaVirusData = oIDataSource.process();
 
 				IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
-				oIDataProcessor.process(strFilename,oJSONCoronaVirusData);
+				oIDataProcessor.process(strFilename, oJSONCoronaVirusData);
 			} catch (Exception e) {
 				Console.WriteLine("Error:" + e);
 			}

@@ -107,6 +107,11 @@ namespace CoronaDataHelper.DataSource {
 				}
 			}
 
+			if (File.Exists(strFileNameJSON)) {
+				string strJsonText = File.ReadAllText(strFileNameJSON);
+				return JsonConvert.DeserializeObject<JSONCoronaVirusData>(strJsonText);
+
+			}
 			foreach (var item in m_listCountries) {
 				var data = getJSON( item);
 				item.data = data.ToArray();
