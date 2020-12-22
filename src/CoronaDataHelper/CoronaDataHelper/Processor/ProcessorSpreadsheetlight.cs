@@ -82,6 +82,8 @@ namespace CoronaDataHelper.Processor {
 				iRowModifier = 34;
 			} else if (oData[0].date == "2020-02-02") {
 				iRowModifier = 35;
+			} else if (oData[0].date == "2020-02-15") {
+				iRowModifier = 48;
 			} else if (oData[0].date == "2020-02-19") {
 				iRowModifier = 52;
 			} else if (oData[0].date == "2020-02-26") {

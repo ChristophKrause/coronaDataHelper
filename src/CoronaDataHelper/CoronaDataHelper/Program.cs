@@ -4,6 +4,7 @@ using CoronaDataHelper.Processor;
 using CoronaDataHelper.Provider;
 using System;
 using System.IO;
+using CoronaDataHelper.Scraper;
 using static CoronaDataHelper.Processor.ProviderDataSource;
 
 namespace CoronaDataHelper {
@@ -13,6 +14,20 @@ namespace CoronaDataHelper {
 		private static void Main(string[] args) {
 			try {
 
+				if (args.Length < 2) {
+					Console.WriteLine("Usage:CoronaDataHelper.exe <EXCELFILE> <EDataProvider>");
+					Console.WriteLine("EDataProvider:");
+					string[] arstrDataProvider = Enum.GetNames(typeof(EDataProvider));
+					foreach (string strDataProvider in arstrDataProvider) {
+						Console.WriteLine(strDataProvider);
+					}
+
+					Console.WriteLine("Example:CoronaDataHelper.exe  coronadata_worldometer.xlsx "+EDataProvider.Worldometer);
+					return;
+				}
+				//ScraperWorldometer oScraperWorldometer = new ScraperWorldometer();
+				//oScraperWorldometer.processUrl("https://www.worldometers.info/coronavirus/country/germany/");
+			//	return;
 				string strFilename = args[0];
 				if (string.IsNullOrWhiteSpace((strFilename))) {
 					throw new  Exception("No Filename");
@@ -21,6 +36,7 @@ namespace CoronaDataHelper {
 					throw new Exception("Can not find ExcelFile:" + strFilename);
 				}
 				IDataSource oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
+				oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
 				JSONCoronaVirusData oJSONCoronaVirusData = oIDataSource.process();
 
 				IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
