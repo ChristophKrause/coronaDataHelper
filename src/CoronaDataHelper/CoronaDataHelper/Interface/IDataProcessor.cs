@@ -4,6 +4,6 @@ namespace CoronaDataHelper.Interface {
 
 	internal interface IDataProcessor {
 
-		bool process(JSONCoronaVirusData oJSONCoronaVirusData);
+		bool process(string strFilename, JSONCoronaVirusData oJSONCoronaVirusData);
 	}
 }

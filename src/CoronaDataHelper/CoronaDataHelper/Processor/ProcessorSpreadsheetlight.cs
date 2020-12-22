@@ -14,16 +14,14 @@ namespace CoronaDataHelper.Processor {
 			death,
 			infected
 		}
-
-		private const string FILENAMEEXCEL = "coronadata.xlsx";
-
-		public bool process(JSONCoronaVirusData oJSONCoronaVirusData) {
-			if (!File.Exists(FILENAMEEXCEL)) {
-				throw new Exception("Can not find ExcelFile:" + FILENAMEEXCEL);
+	
+		public bool process(string strFilename, JSONCoronaVirusData oJSONCoronaVirusData) {
+			if (!File.Exists(strFilename)) {
+				throw new Exception("Can not find ExcelFile:" + strFilename);
 			}
 
-			processXLSX(FILENAMEEXCEL, oJSONCoronaVirusData, EDataType.infected);
-			processXLSX(FILENAMEEXCEL, oJSONCoronaVirusData, EDataType.death);
+			processXLSX(strFilename, oJSONCoronaVirusData, EDataType.infected);
+			processXLSX(strFilename, oJSONCoronaVirusData, EDataType.death);
 
 			return true;
 		}
