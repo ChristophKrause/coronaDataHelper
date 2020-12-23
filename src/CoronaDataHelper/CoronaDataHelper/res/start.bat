@@ -1,0 +1,3 @@
+CoronaDataHelper.exe coronadata-JHUCSSE.xlsx OurWorldInData
+CoronaDataHelper.exe coronadata_worldometer.xlsx Worldometer
+CoronaDataHelper.exe coronadata_germany.xlsx GermanyJHUCSSEGIT
