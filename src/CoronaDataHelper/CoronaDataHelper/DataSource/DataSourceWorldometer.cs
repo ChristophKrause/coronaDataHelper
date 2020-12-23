@@ -114,7 +114,7 @@ namespace CoronaDataHelper.DataSource {
 			}
 			foreach (var item in m_listCountries) {
 				var data = getJSON( item);
-				item.data = data.ToArray();
+				item.data = data;
 			}
 
 			string strJson = JsonConvert.SerializeObject(m_oJSONCoronaVirusData);

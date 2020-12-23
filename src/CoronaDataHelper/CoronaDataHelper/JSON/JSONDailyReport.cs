@@ -25,6 +25,8 @@ namespace CoronaDataHelper.JSON {
 		public string Combined_Key { get; set; }
         public string Incident_Rate { get; set; }
         public string Case_Fatality_Ratio { get; set; }
+        internal int new_cases { get; set; }
+        internal int new_deaths { get; set; }
 
         public override string ToString() {
 	        return JsonConvert.SerializeObject(this);
@@ -35,38 +37,25 @@ namespace CoronaDataHelper.JSON {
 			csv.ReadHeader();
 			var header = csv.Context.HeaderRecord;
 			List<string> listHeaders = new List<string>(header);
-
-			//foreach (var item in listHeaders) {
-			//	Console.WriteLine(item);
-			//}
-			//check invalid fields
+			
 			foreach (var item in m_listMandatory) {
 				if (!listHeaders.Contains(item)) {
 					throw new Exception("Field not Found "+ item);
 				}
 			}
         }
-	}
-	public class JSONDailyReportv2Map : ClassMap<JSONDailyReport> {
-		public JSONDailyReportv2Map() {
-			Map(m => m.FIPS).Name("FIPS");
-			Map(m => m.Admin2).Name("Admin2");
-			Map(m => m.Province_State).Name("Province_State");
-			Map(m => m.Country_Region).Name("Country_Region");
-			Map(m => m.Last_Update).Name("Last_Update");
-			Map(m => m.Lat).Name("Lat");
-			Map(m => m.Long_).Name("Long_");
-			Map(m => m.Confirmed).Name("Confirmed");
-			Map(m => m.Deaths).Name("Deaths");
-			Map(m => m.Recovered).Name("Recovered");
-			Map(m => m.Active).Name("Active");
-			Map(m => m.Combined_Key).Name("Combined_Key");
-			Map(m => m.Incident_Rate).Name("Incidence_Rate");
-			Map(m => m.Incident_Rate).Name("Incident_Rate");
-			Map(m => m.Case_Fatality_Ratio).Name("Case-Fatality_Ratio");
-			Map(m => m.Case_Fatality_Ratio).Name("Case_Fatality_Ratio");
-		}
-	}
 
+        public JSONDailyData convert() {
+			JSONDailyData oJSONDailyData =  new JSONDailyData();
+			oJSONDailyData.total_deaths = Deaths ?? default(int);
+			oJSONDailyData.total_cases = Confirmed ?? default(int);
 
+			oJSONDailyData.new_deaths = new_deaths;
+			oJSONDailyData.new_cases = new_cases;
+
+			oJSONDailyData.date = Last_Update.AddDays(-1).ToString("yyyy-MM-dd"); //decrement day, because the update is not the data date!
+			return oJSONDailyData;
+
+        }
+	}
 }

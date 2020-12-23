@@ -44,18 +44,22 @@ namespace CoronaDataHelper {
 				}
 
 				IDataSource oIDataSource;
+				EDataProvider eDataProvider;
 				if (args[1].Equals(EDataProvider.Worldometer.ToString())) {
+					eDataProvider = EDataProvider.Worldometer;
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
 				} else if (args[1].Equals(EDataProvider.OurWorldInData.ToString())) {
+					eDataProvider = EDataProvider.OurWorldInData;
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
 				} else if (args[1].Equals(EDataProvider.GermanyJHUCSSEGIT.ToString())) {
+					eDataProvider = EDataProvider.GermanyJHUCSSEGIT; 
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyJHUCSSEGIT);
 				} else {
 					throw new Exception("Unknown data provider" + args[1]);
 				}
 				
 			
-				process((JSONCoronaVirusData) oIDataSource.process(), strFilename);
+				process(oIDataSource.process(), strFilename);
 				
 			
 			} catch (Exception e) {
@@ -63,18 +67,12 @@ namespace CoronaDataHelper {
 			}
 		}
 
-		private static void process(object data, string strFilename) {
-			if (data is JSONCoronaVirusData) {
-				JSONCoronaVirusData oJSONCoronaVirusData = (JSONCoronaVirusData) data;
-
-				IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
-				oIDataProcessor.process(strFilename, oJSONCoronaVirusData);
+		private static void process( object data, string strFilename) {
+			IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
+				oIDataProcessor.process(strFilename, data);
 				return;
-			}
-			if (data is JSONDailyReport) {
-				//TODO: do something
-				return;
-			}
+			
+			
 		}
 
 

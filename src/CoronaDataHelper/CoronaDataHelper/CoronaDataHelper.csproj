@@ -91,6 +91,7 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Interface\IDataProcessor.cs" />
     <Compile Include="Interface\IDataSource.cs" />
+    <Compile Include="JSON\JSONCoronaVirusDataGermany.cs" />
     <Compile Include="JSON\JSONCoronaVirusData.cs" />
     <Compile Include="JSON\JSONCountry.cs" />
     <Compile Include="JSON\JSONDailyData.cs" />
@@ -107,6 +108,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="res\start.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,6 @@
-﻿namespace CoronaDataHelper.JSON {
+﻿using System.Collections.Generic;
+
+namespace CoronaDataHelper.JSON {
 	public class JSONCountry {
 		public string continent { get; set; }
 		public string location { get; set; }
@@ -10,6 +12,6 @@
 		public float gdp_per_capita { get; set; }
 		public float diabetes_prevalence { get; set; }
 		public float life_expectancy { get; set; }
-		public JSONDailyData[] data { get; set; }
+		public List<JSONDailyData> data { get; set; }
 	}
 }
