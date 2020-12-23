@@ -11,7 +11,7 @@ namespace CoronaDataHelper.DataSource {
 	//Ony POC andnot used
 	internal class DataSourceCovid19APIPOC : IDataSource {
 
-		public JSONCoronaVirusData process() {
+		public object process() {
 			Task t = processMethod2Async();
 			t.Wait();
 			return null;

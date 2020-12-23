@@ -21,7 +21,7 @@ namespace CoronaDataHelper.DataSource {
 		internal DataSourceWorldometer() {
 
 		}
-		public JSONCoronaVirusData process() {
+		public object process() {
 			prepare();
 			return getJSONData(URLJSONDATASOURCE, FILENAMEJSON);
 		}

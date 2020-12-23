@@ -3,9 +3,16 @@ using CoronaDataHelper.JSON;
 using CoronaDataHelper.Processor;
 using CoronaDataHelper.Provider;
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using CoronaDataHelper.Scraper;
+using CsvHelper;
+using DocumentFormat.OpenXml.Drawing;
+using Newtonsoft.Json;
 using static CoronaDataHelper.Processor.ProviderDataSource;
+using Path = DocumentFormat.OpenXml.Drawing.Path;
 
 namespace CoronaDataHelper {
 
@@ -13,7 +20,7 @@ namespace CoronaDataHelper {
 
 		private static void Main(string[] args) {
 			try {
-
+			
 				if (args.Length < 2) {
 					Console.WriteLine("Usage:CoronaDataHelper.exe <EXCELFILE> <EDataProvider>");
 					Console.WriteLine("EDataProvider:");
@@ -41,17 +48,36 @@ namespace CoronaDataHelper {
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
 				} else if (args[1].Equals(EDataProvider.OurWorldInData.ToString())) {
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
+				} else if (args[1].Equals(EDataProvider.GermanyJHUCSSEGIT.ToString())) {
+					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyJHUCSSEGIT);
 				} else {
 					throw new Exception("Unknown data provider" + args[1]);
 				}
 				
-				JSONCoronaVirusData oJSONCoronaVirusData = oIDataSource.process();
-
-				IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
-				oIDataProcessor.process(strFilename, oJSONCoronaVirusData);
+			
+				process((JSONCoronaVirusData) oIDataSource.process(), strFilename);
+				
+			
 			} catch (Exception e) {
 				Console.WriteLine("Error:" + e);
 			}
 		}
+
+		private static void process(object data, string strFilename) {
+			if (data is JSONCoronaVirusData) {
+				JSONCoronaVirusData oJSONCoronaVirusData = (JSONCoronaVirusData) data;
+
+				IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
+				oIDataProcessor.process(strFilename, oJSONCoronaVirusData);
+				return;
+			}
+			if (data is JSONDailyReport) {
+				//TODO: do something
+				return;
+			}
+		}
+
+
+
 	}
 }

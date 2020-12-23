@@ -10,7 +10,7 @@ namespace CoronaDataHelper.DataSource {
 		private const string URLJSONDATASOURCE = "https://covid.ourworldindata.org/data/owid-covid-data.json";
 		private const string FILENAMEJSON = "coronavirus-source-data.json";
 
-		public JSONCoronaVirusData process() {
+		public object process() {
 			return getJSONData(URLJSONDATASOURCE, FILENAMEJSON);
 		}
 

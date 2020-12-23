@@ -4,6 +4,6 @@ namespace CoronaDataHelper.Interface {
 
 	internal interface IDataSource {
 
-		JSONCoronaVirusData process();
+		object process();
 	}
 }
