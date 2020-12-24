@@ -56,6 +56,7 @@ namespace CoronaDataHelper.DataSource {
 		}
 
 		private void udateGIT() {
+			return;
 			string gitCommand = "git";
 			string gitCheckoutArgument = @"checkout -B master remotes/origin/master --";
 			string gitFetchArgument = "fetch -v --progress \"origin\"";
