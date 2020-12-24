@@ -10,14 +10,14 @@ namespace CoronaDataHelper.Processor {
 
 	internal class ProcessorSpreadsheetlight : IDataProcessor {
 
-		private static  readonly Dictionary<string, string> m_oDictCellToCountryName = new Dictionary<string, string>() {
+		private static  readonly Dictionary<string, string> m_oDictCellToStateName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Brandenburg"},{"C1","Berlin"},{"D1","Baden-Wurttemberg"},{"E1","Bayern"},{"F1","Bremen"},{"G1","Hessen"},
 			{"H1","Hamburg"},{"I1","Mecklenburg-Vorpommern"},{"J1","Niedersachsen"},{"K1","Nordrhein-Westfalen"},{"L1","Rheinland-Pfalz"},{"M1","Schleswig-Holstein"},{"N1","Saarland"},
 			{"O1","Sachsen"},
 			{"P1","Sachsen-Anhalt"},
 			{"Q1","Thuringen"}
-		};
-		private static readonly Dictionary<string, string> m_oDictCellToStateName = new Dictionary<string, string>() {
+		}; 
+		private static readonly Dictionary<string, string> m_oDictCellToCountryName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Italy"},{"C1","Spain"},{"D1","USA"},{"E1","Germany"},{"F1","France"},{"G1","Iran"},
 			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"}
 		};
@@ -53,7 +53,7 @@ namespace CoronaDataHelper.Processor {
 			Console.WriteLine("OPEN Excel " + strFileNameExcelx);
 			SLDocument sl = new SLDocument(strFileNameExcelx, eDataType.ToString());
 
-			validateFile(sl, m_oDictCellToCountryName);
+			validateFile(sl, m_oDictCellToStateName);
 
 			//TODO: Make these calls generic by a List with propertynames
 
@@ -143,8 +143,7 @@ namespace CoronaDataHelper.Processor {
 				iRowModifier = 59;
 			} else if (oData[0].date == "2020-02-29") {
 				iRowModifier = 62;
-			}
-			if (oData[0].date == "2020-05-14") {
+			}else if (oData[0].date == "2020-05-14") {
 				iRowModifier = 2;
 			} else {
 				throw new Exception("Invalid value:" + oData[0].date + " strColumn:" + strColumn);

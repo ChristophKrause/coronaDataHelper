@@ -57,13 +57,13 @@ namespace CoronaDataHelper.DataSource {
 
 		private void udateGIT() {
 			string gitCommand = "git";
-			string gitPullArgument = @"pull";
-			string gitFetchArgument = @"fetch";
+			string gitCheckoutArgument = @"checkout -B master remotes/origin/master --";
+			string gitFetchArgument = "fetch -v --progress \"origin\"";
 
 			Process oprocess = Process.Start(gitCommand, gitFetchArgument);
 			Console.WriteLine("update repository");
 			oprocess.WaitForExit();
-			oprocess = Process.Start(gitCommand, gitPullArgument);
+			oprocess = Process.Start(gitCommand, gitCheckoutArgument);
 			oprocess.WaitForExit();
 			Console.WriteLine("update repository ... done");
 		}
