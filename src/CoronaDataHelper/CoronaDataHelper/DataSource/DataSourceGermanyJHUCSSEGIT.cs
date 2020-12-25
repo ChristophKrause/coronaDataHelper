@@ -56,15 +56,24 @@ namespace CoronaDataHelper.DataSource {
 		}
 
 		private void udateGIT() {
-			return;
-			string gitCommand = "git";
+			
+			string gitCommand = "git.exe";
 			string gitCheckoutArgument = @"checkout -B master remotes/origin/master --";
 			string gitFetchArgument = "fetch -v --progress \"origin\"";
 
-			Process oprocess = Process.Start(gitCommand, gitFetchArgument);
+			Process oprocess = new Process();
+			oprocess.StartInfo.FileName = gitCommand;
+			oprocess.StartInfo.Arguments = gitFetchArgument;
+			oprocess.StartInfo.WorkingDirectory = PATH;
 			Console.WriteLine("update repository");
+			oprocess.Start();
 			oprocess.WaitForExit();
-			oprocess = Process.Start(gitCommand, gitCheckoutArgument);
+			oprocess = new Process();
+			// Configure the process using the StartInfo properties.
+			oprocess.StartInfo.FileName = gitCommand;
+			oprocess.StartInfo.Arguments = gitCheckoutArgument;
+			oprocess.StartInfo.WorkingDirectory = PATH;
+			oprocess.Start();
 			oprocess.WaitForExit();
 			Console.WriteLine("update repository ... done");
 		}
