@@ -117,7 +117,7 @@ namespace CoronaDataHelper.DataSource {
 				item.data = data;
 			}
 
-			string strJson = JsonConvert.SerializeObject(m_oJSONCoronaVirusData);
+			string strJson = JsonConvert.SerializeObject(m_oJSONCoronaVirusData, Formatting.Indented);
 
 			File.WriteAllText(strFileNameJSON, strJson);
 			return m_oJSONCoronaVirusData;

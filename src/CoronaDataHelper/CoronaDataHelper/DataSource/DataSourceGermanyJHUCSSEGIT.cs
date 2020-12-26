@@ -48,7 +48,7 @@ namespace CoronaDataHelper.DataSource {
 					oJSONCoronaVirusDataGermany.addData(item);
 				}
 			}
-			string strJson = JsonConvert.SerializeObject(oJSONCoronaVirusDataGermany);
+			string strJson = JsonConvert.SerializeObject(oJSONCoronaVirusDataGermany, Formatting.Indented);
 
 			File.WriteAllText(strFileNameJSON, strJson);
 			Console.WriteLine("Got Data:" + data.Count);
