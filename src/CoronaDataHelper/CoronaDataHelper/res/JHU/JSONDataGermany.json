@@ -3690,6 +3690,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 998.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 44385.0,
+        "new_cases": 1182.0,
+        "new_deaths": 57.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 1055.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -7383,6 +7399,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 1213.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 96799.0,
+        "new_cases": 1059.0,
+        "new_deaths": 34.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 1247.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -11078,6 +11110,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 4695.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 237993.0,
+        "new_cases": 3495.0,
+        "new_deaths": 94.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 4789.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -14771,6 +14819,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 6549.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 324937.0,
+        "new_cases": 6598.0,
+        "new_deaths": 167.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 6716.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -18466,6 +18530,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 191.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 13575.0,
+        "new_cases": 164.0,
+        "new_deaths": 3.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 194.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -22159,6 +22239,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 2711.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 136577.0,
+        "new_cases": 3102.0,
+        "new_deaths": 134.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 2845.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -25854,6 +25950,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 614.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 36421.0,
+        "new_cases": 470.0,
+        "new_deaths": 18.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 632.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -29547,6 +29659,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 161.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 12013.0,
+        "new_cases": 379.0,
+        "new_deaths": 10.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 171.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -33242,6 +33370,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 1908.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 106789.0,
+        "new_cases": 2021.0,
+        "new_deaths": 59.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 1967.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -36935,6 +37079,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 6451.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 393185.0,
+        "new_cases": 5748.0,
+        "new_deaths": 101.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 6552.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -40630,6 +40790,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 1378.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 72025.0,
+        "new_cases": 1276.0,
+        "new_deaths": 50.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 1428.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -44323,6 +44499,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 411.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 24792.0,
+        "new_cases": 508.0,
+        "new_deaths": 14.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 425.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -48018,6 +48210,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 456.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 20180.0,
+        "new_cases": 332.0,
+        "new_deaths": 6.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 462.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -51711,6 +51919,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 3003.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 132356.0,
+        "new_cases": 3571.0,
+        "new_deaths": 136.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 3139.0,
         "total_deaths_per_million": 0.0
       }
     ]
@@ -55406,6 +55630,22 @@
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 571.0,
         "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 29542.0,
+        "new_cases": 929.0,
+        "new_deaths": 42.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 613.0,
+        "total_deaths_per_million": 0.0
       }
     ]
   },
@@ -59099,6 +59339,22 @@
         "new_cases_smoothed_per_million": 0.0,
         "new_deaths_smoothed_per_million": 0.0,
         "total_deaths": 957.0,
+        "total_deaths_per_million": 0.0
+      },
+      {
+        "date": "2020-12-30",
+        "total_cases": 42034.0,
+        "new_cases": 1376.0,
+        "new_deaths": 38.0,
+        "total_cases_per_million": 0.0,
+        "new_cases_per_million": 0.0,
+        "new_deaths_per_million": 0.0,
+        "stringency_index": 0.0,
+        "new_cases_smoothed": 0.0,
+        "new_deaths_smoothed": 0.0,
+        "new_cases_smoothed_per_million": 0.0,
+        "new_deaths_smoothed_per_million": 0.0,
+        "total_deaths": 995.0,
         "total_deaths_per_million": 0.0
       }
     ]
