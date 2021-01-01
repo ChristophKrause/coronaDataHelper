@@ -44,16 +44,14 @@ namespace CoronaDataHelper {
 				}
 
 				IDataSource oIDataSource;
-				EDataProvider eDataProvider;
 				if (args[1].Equals(EDataProvider.Worldometer.ToString())) {
-					eDataProvider = EDataProvider.Worldometer;
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
 				} else if (args[1].Equals(EDataProvider.OurWorldInData.ToString())) {
-					eDataProvider = EDataProvider.OurWorldInData;
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
 				} else if (args[1].Equals(EDataProvider.GermanyJHUCSSEGIT.ToString())) {
-					eDataProvider = EDataProvider.GermanyJHUCSSEGIT; 
 					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyJHUCSSEGIT);
+				} else if (args[1].Equals(EDataProvider.GermanyMarlonLueckert.ToString())) {
+					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyMarlonLueckert);
 				} else {
 					throw new Exception("Unknown data provider" + args[1]);
 				}

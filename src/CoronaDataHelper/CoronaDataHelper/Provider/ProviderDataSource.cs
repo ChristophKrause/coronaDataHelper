@@ -9,7 +9,8 @@ namespace CoronaDataHelper.Processor {
 		internal enum EDataProvider {
 			OurWorldInData,
 			Worldometer,
-			GermanyJHUCSSEGIT
+			GermanyJHUCSSEGIT,
+			GermanyMarlonLueckert,
 		}
 
 		internal static IDataSource getDataSource(EDataProvider edataprovider) {
@@ -23,6 +24,9 @@ namespace CoronaDataHelper.Processor {
 				case EDataProvider.GermanyJHUCSSEGIT:
 					Console.WriteLine("Using " + nameof(DataSourceGermanyJHUCSSEGIT));
 					return new DataSourceGermanyJHUCSSEGIT();
+				case EDataProvider.GermanyMarlonLueckert:
+					Console.WriteLine("Using " + nameof(DataSourceMarlonLueckert));
+					return new DataSourceMarlonLueckert();
 				default:
 					return null;
 			}

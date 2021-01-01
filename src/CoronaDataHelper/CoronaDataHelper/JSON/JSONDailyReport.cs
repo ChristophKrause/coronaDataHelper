@@ -29,8 +29,10 @@ namespace CoronaDataHelper.JSON {
         internal int new_deaths { get; set; }
 
         public override string ToString() {
-	        return JsonConvert.SerializeObject(this, Formatting.Indented);
-        }
+	        return JsonConvert.SerializeObject(this, Formatting.Indented, new JsonSerializerSettings {
+		        NullValueHandling = NullValueHandling.Ignore
+	        });
+		}
 
         public static void validate(CsvReader csv) {
 			csv.Read();

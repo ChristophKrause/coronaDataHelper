@@ -31,6 +31,10 @@ namespace CoronaDataHelper.Processor {
 				throw new Exception("Can not find ExcelFile:" + strFilename);
 			}
 
+			if (oJSONData == null) {
+				throw new Exception("data is null");
+			}
+
 			if (oJSONData is JSONCoronaVirusDataGermany oJSONCoronaVirusDataGermany) {
 				processXLSX_ger(strFilename, oJSONCoronaVirusDataGermany, EDataType.infected);
 				processXLSX_ger(strFilename, oJSONCoronaVirusDataGermany, EDataType.death);
