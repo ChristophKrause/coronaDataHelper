@@ -3,10 +3,17 @@
     "location": "Brandenburg",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 46633.0,
+        "new_cases": 46633.0,
+        "new_deaths": 1125.0,
+        "total_deaths": 1125.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 3173.0,
-        "new_cases": 3173.0,
-        "new_deaths": 162.0,
+        "new_cases": -43460.0,
+        "new_deaths": -963.0,
         "total_deaths": 162.0
       },
       {
@@ -1632,10 +1639,17 @@
     "location": "Berlin",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 97649.0,
+        "new_cases": 97649.0,
+        "new_deaths": 1277.0,
+        "total_deaths": 1277.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 6393.0,
-        "new_cases": 6393.0,
-        "new_deaths": 177.0,
+        "new_cases": -91256.0,
+        "new_deaths": -1100.0,
         "total_deaths": 177.0
       },
       {
@@ -3261,10 +3275,17 @@
     "location": "Baden-Wurttemberg",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 242744.0,
+        "new_cases": 242744.0,
+        "new_deaths": 4894.0,
+        "total_deaths": 4894.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 33804.0,
-        "new_cases": 33804.0,
-        "new_deaths": 1629.0,
+        "new_cases": -208940.0,
+        "new_deaths": -3265.0,
         "total_deaths": 1629.0
       },
       {
@@ -4890,10 +4911,17 @@
     "location": "Bayern",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 330855.0,
+        "new_cases": 330855.0,
+        "new_deaths": 6811.0,
+        "total_deaths": 6811.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 45352.0,
-        "new_cases": 45352.0,
-        "new_deaths": 2250.0,
+        "new_cases": -285503.0,
+        "new_deaths": -4561.0,
         "total_deaths": 2250.0
       },
       {
@@ -6519,10 +6547,17 @@
     "location": "Bremen",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 13708.0,
+        "new_cases": 13708.0,
+        "new_deaths": 201.0,
+        "total_deaths": 201.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 1132.0,
-        "new_cases": 1132.0,
-        "new_deaths": 37.0,
+        "new_cases": -12576.0,
+        "new_deaths": -164.0,
         "total_deaths": 37.0
       },
       {
@@ -8148,10 +8183,17 @@
     "location": "Hessen",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 139368.0,
+        "new_cases": 139368.0,
+        "new_deaths": 2917.0,
+        "total_deaths": 2917.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 9169.0,
-        "new_cases": 9169.0,
-        "new_deaths": 423.0,
+        "new_cases": -130199.0,
+        "new_deaths": -2494.0,
         "total_deaths": 423.0
       },
       {
@@ -9777,10 +9819,17 @@
     "location": "Hamburg",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 37297.0,
+        "new_cases": 37297.0,
+        "new_deaths": 658.0,
+        "total_deaths": 658.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 4976.0,
-        "new_cases": 4976.0,
-        "new_deaths": 228.0,
+        "new_cases": -32321.0,
+        "new_deaths": -430.0,
         "total_deaths": 228.0
       },
       {
@@ -11406,10 +11455,17 @@
     "location": "Mecklenburg-Vorpommern",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 12365.0,
+        "new_cases": 12365.0,
+        "new_deaths": 173.0,
+        "total_deaths": 173.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 740.0,
-        "new_cases": 740.0,
-        "new_deaths": 20.0,
+        "new_cases": -11625.0,
+        "new_deaths": -153.0,
         "total_deaths": 20.0
       },
       {
@@ -13035,10 +13091,17 @@
     "location": "Niedersachsen",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 109810.0,
+        "new_cases": 109810.0,
+        "new_deaths": 2016.0,
+        "total_deaths": 2016.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 11075.0,
-        "new_cases": 11075.0,
-        "new_deaths": 537.0,
+        "new_cases": -98735.0,
+        "new_deaths": -1479.0,
         "total_deaths": 537.0
       },
       {
@@ -14664,10 +14727,17 @@
     "location": "Nordrhein-Westfalen",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 398678.0,
+        "new_cases": 398678.0,
+        "new_deaths": 6701.0,
+        "total_deaths": 6701.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 35741.0,
-        "new_cases": 35741.0,
-        "new_deaths": 1483.0,
+        "new_cases": -362937.0,
+        "new_deaths": -5218.0,
         "total_deaths": 1483.0
       },
       {
@@ -16293,10 +16363,17 @@
     "location": "Rheinland-Pfalz",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 73545.0,
+        "new_cases": 73545.0,
+        "new_deaths": 1459.0,
+        "total_deaths": 1459.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 6406.0,
-        "new_cases": 6406.0,
-        "new_deaths": 212.0,
+        "new_cases": -67139.0,
+        "new_deaths": -1247.0,
         "total_deaths": 212.0
       },
       {
@@ -17922,10 +17999,17 @@
     "location": "Schleswig-Holstein",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 25247.0,
+        "new_cases": 25247.0,
+        "new_deaths": 436.0,
+        "total_deaths": 436.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 2988.0,
-        "new_cases": 2988.0,
-        "new_deaths": 125.0,
+        "new_cases": -22259.0,
+        "new_deaths": -311.0,
         "total_deaths": 125.0
       },
       {
@@ -19551,10 +19635,17 @@
     "location": "Saarland",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 20476.0,
+        "new_cases": 20476.0,
+        "new_deaths": 469.0,
+        "total_deaths": 469.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 2705.0,
-        "new_cases": 2705.0,
-        "new_deaths": 149.0,
+        "new_cases": -17771.0,
+        "new_deaths": -320.0,
         "total_deaths": 149.0
       },
       {
@@ -21180,10 +21271,17 @@
     "location": "Sachsen",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 137031.0,
+        "new_cases": 137031.0,
+        "new_deaths": 3302.0,
+        "total_deaths": 3302.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 5046.0,
-        "new_cases": 5046.0,
-        "new_deaths": 195.0,
+        "new_cases": -131985.0,
+        "new_deaths": -3107.0,
         "total_deaths": 195.0
       },
       {
@@ -22809,10 +22907,17 @@
     "location": "Sachsen-Anhalt",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 31041.0,
+        "new_cases": 31041.0,
+        "new_deaths": 679.0,
+        "total_deaths": 679.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 1668.0,
-        "new_cases": 1668.0,
-        "new_deaths": 52.0,
+        "new_cases": -29373.0,
+        "new_deaths": -627.0,
         "total_deaths": 52.0
       },
       {
@@ -24438,10 +24543,17 @@
     "location": "Thuringen",
     "data": [
       {
+        "date": "2021-01-01",
+        "total_cases": 43875.0,
+        "new_cases": 43875.0,
+        "new_deaths": 1027.0,
+        "total_deaths": 1027.0
+      },
+      {
         "date": "2020-05-14",
         "total_cases": 2663.0,
-        "new_cases": 2663.0,
-        "new_deaths": 133.0,
+        "new_cases": -41212.0,
+        "new_deaths": -894.0,
         "total_deaths": 133.0
       },
       {
