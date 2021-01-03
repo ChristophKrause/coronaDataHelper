@@ -33,7 +33,7 @@ namespace CoronaDataHelper.DataSource {
 
 			File.WriteAllText(FILENAMEJSON, strJson);
 
-			return null;
+			return oJSONCoronaVirusDataGermany;
 		}
 
 		

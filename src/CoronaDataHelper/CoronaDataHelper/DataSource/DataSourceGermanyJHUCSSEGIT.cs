@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 using CoronaDataHelper.Interface;
 using CoronaDataHelper.JSON;
+using CoronaDataHelper.Tools;
 using CsvHelper;
 using Newtonsoft.Json;
 
@@ -58,7 +59,7 @@ namespace CoronaDataHelper.DataSource {
 		}
 
 		private void udateGIT() {
-			
+
 			string gitCommand = "git.exe";
 			string gitCheckoutArgument = @"checkout -B master remotes/origin/master --";
 			string gitFetchArgument = "fetch -v --progress \"origin\"";
@@ -92,27 +93,35 @@ namespace CoronaDataHelper.DataSource {
 			Dictionary<string, int> dictStateToDeath = new Dictionary<string, int>();
 			Dictionary<string, int> dictStateToConfirmed = new Dictionary<string, int>();
 
-			foreach (var file in files) {
-				string[] arstrparts = System.IO.Path.GetFileNameWithoutExtension(file).Split('-');
-				int iMonth = Int16.Parse(arstrparts[0]);
-				int iDay = Int16.Parse(arstrparts[1]);
-				int iYear = Int16.Parse(arstrparts[2]);
 
-				DateTime dt = new DateTime(iYear, iMonth, iDay);
-				if (dt < dtstart) {
-					Console.WriteLine("Skipping file:" + file);
+			//files need to be sorted here to have a valid calculation.
+			List<FileNameWrapper> listFileNameWrapper = new List<FileNameWrapper>();
+			foreach (var file in files) {
+				FileNameWrapper oFileNameWrapper = new FileNameWrapper(file);
+
+				listFileNameWrapper.Add(oFileNameWrapper);
+
+			}
+
+			listFileNameWrapper.Sort();
+			foreach (var oFileName in listFileNameWrapper) {
+			
+				if (oFileName.m_dtFile < dtstart) {
+					Console.WriteLine("Skipping file:" + oFileName.m_strFileName);
 					continue;
 				}
 
 
-				using (var reader = new StreamReader(file)) {
+
+
+				using (var reader = new StreamReader(oFileName.m_strFileName)) {
 					try {
 						using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture)) {
 							csv.Configuration.HeaderValidated = null;
 							string strException = "";
 
 							try {
-						
+
 								csv.Configuration.MissingFieldFound = null;
 
 								JSONDailyReport.validate(csv);
@@ -127,7 +136,7 @@ namespace CoronaDataHelper.DataSource {
 									if (!dictStateToDeath.ContainsKey(item.Province_State)) {
 										dictStateToDeath.Add(item.Province_State, 0);
 										dictStateToConfirmed.Add(item.Province_State, 0);
-										
+
 									}
 									//modify item
 
@@ -140,26 +149,26 @@ namespace CoronaDataHelper.DataSource {
 									listJSONDailyReport.Add(item);
 
 									if (item.Province_State.Equals("Bayern")) {
-										Console.WriteLine("2 file:" + file);
-									//	Debug.WriteLine("item:" + item);
+										Console.WriteLine("2 file:" + oFileName.m_strFileName);
+										//	Debug.WriteLine("item:" + item);
 									}
 								}
-								
-								Debug.WriteLine(dt+" records            :" + records.Count());
-								Debug.WriteLine(dt+" listJSONDailyReport:" + listJSONDailyReport.Count());
-								dictResult.Add(dt, listJSONDailyReport);
+
+								Debug.WriteLine(oFileName.m_dtFile + " records            :" + records.Count());
+								Debug.WriteLine(oFileName.m_dtFile + " listJSONDailyReport:" + listJSONDailyReport.Count());
+								dictResult.Add(oFileName.m_dtFile, listJSONDailyReport);
 								continue;
 							} catch (Exception e) {
 								strException += e + Environment.NewLine;
 							}
-							Console.WriteLine("Invalid File:" + file);
-							Debug.WriteLine("Invalid File:" + file);
+							Console.WriteLine("Invalid File:" + oFileName.m_strFileName);
+							Debug.WriteLine("Invalid File:" + oFileName.m_strFileName);
 							Debug.WriteLine("strException:" + strException);
 
 						}
 					} catch (Exception e) {
-						Console.WriteLine("Error in file:" + file);
-						Debug.WriteLine("Error in file:" + file);
+						Console.WriteLine("Error in file:" + oFileName.m_strFileName);
+						Debug.WriteLine("Error in file:" + oFileName.m_strFileName);
 						Debug.WriteLine("Error:" + e);
 					}
 				}
@@ -188,7 +197,7 @@ namespace CoronaDataHelper.DataSource {
 					return true;
 				default:
 					return false;
-					
+
 			}
 		}
 

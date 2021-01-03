@@ -120,7 +120,7 @@ namespace CoronaDataHelper.Processor {
 			var oData = oJSONCountry.data;
 			for (int i = 0; i < oData.Count; i++) {
 			
-				Debug.WriteLine("Date: " + oData[i].date + " "  + oJSONCountry.location);
+			//	Debug.WriteLine("Date: " + oData[i].date + " "  + oJSONCountry.location);
 
 				float? fValue = oData[i].new_cases;
 				if (eRow == EDataType.death) {

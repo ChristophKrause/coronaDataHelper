@@ -1,4 +1,4 @@
 CoronaDataHelper.exe coronadata-JHUCSSE.xlsx OurWorldInData
 CoronaDataHelper.exe coronadata_worldometer.xlsx Worldometer
 CoronaDataHelper.exe coronadata_germany.xlsx GermanyJHUCSSEGIT
-CoronaDataHelper.exe coronadata_germany.xlsx GermanyMarlonLueckert
+CoronaDataHelper.exe coronadata_germanyRKI.xlsx GermanyMarlonLueckert
