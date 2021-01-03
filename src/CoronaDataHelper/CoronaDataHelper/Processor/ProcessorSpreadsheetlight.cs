@@ -118,62 +118,58 @@ namespace CoronaDataHelper.Processor {
 			Console.WriteLine("column: " + strColumn+" setData: " + oJSONCountry.location);
 
 			var oData = oJSONCountry.data;
-
-			int iRowModifier = 0;
-			//not generic to get a message if the data is changed 
-			if (oData[0].date == "2019-12-31") {
-				iRowModifier = 2;
-			} else if (oData[0].date == "2020-01-22") {
-				iRowModifier = 24;
-			} else if (oData[0].date == "2020-01-23") {
-				iRowModifier = 25;
-			} else if (oData[0].date == "2020-01-24") {
-				iRowModifier = 26;
-			} else if (oData[0].date == "2020-01-26") {
-				iRowModifier = 28;
-			} else if (oData[0].date == "2020-01-27") {
-				iRowModifier = 29;
-			} else if (oData[0].date == "2020-01-31") {
-				iRowModifier = 33;
-			} else if (oData[0].date == "2020-02-01") {
-				iRowModifier = 34;
-			} else if (oData[0].date == "2020-02-02") {
-				iRowModifier = 35;
-			} else if (oData[0].date == "2020-02-04") {
-				iRowModifier = 37;
-			} else if (oData[0].date == "2020-02-15") {
-				iRowModifier = 48;
-			} else if (oData[0].date == "2020-02-19") {
-				iRowModifier = 52;
-			} else if (oData[0].date == "2020-02-26") {
-				iRowModifier = 59;
-			} else if (oData[0].date == "2020-02-29") {
-				iRowModifier = 62;
-			}else if (oData[0].date == "2020-05-14") {
-				iRowModifier = 2;
-			} else {
-				throw new Exception("Invalid value:" + oData[0].date + " strColumn:" + strColumn);
-			}
-
 			for (int i = 0; i < oData.Count; i++) {
-				int iValue = (int)oData[i].new_cases;
+			
+				Debug.WriteLine("Date: " + oData[i].date + " "  + oJSONCountry.location);
+
+				float? fValue = oData[i].new_cases;
 				if (eRow == EDataType.death) {
-					iValue = (int)oData[i].new_deaths;
+					fValue = oData[i].new_deaths;
 				}
 
+				int iValue = 0;
+				if (fValue != null) {
+					iValue = (int)fValue.Value;
+				}
+				int iRow = getRowIndexForDate(oData[i].date);
+			//	Debug.WriteLine("Row for Date: "+ oData[0].date+" "+ iRow + " "+ oJSONCountry.location);
 				
+				string strrowIndex = strColumn + "" + iRow;
 
-				string strrowIndex = strColumn + "" + (i + iRowModifier);
-				if (strColumn == "E") {
-					Debug.WriteLine(strrowIndex+" "+ iValue + "    oData[0].date:" + oData[i].date);
-				}
+
+				//if (strColumn == "E") {
+				//	Debug.WriteLine(strrowIndex+" "+ iValue + "    oData[0].date:" + oData[i].date);
+				//}
 				sl.ClearCellContent(strrowIndex, strrowIndex);
 				sl.SetCellValue(strrowIndex, iValue);
 			}
 		}
 
-	
 
+
+		private static int getRowIndexForDate(string strDateTime) {
+			string[] arstrparts = strDateTime.Split('-');
+			int iYear = Int16.Parse(arstrparts[0]);
+			int iMonth = Int16.Parse(arstrparts[1]);
+			int iDay = Int16.Parse(arstrparts[2]);
+			if (iMonth > 12 || iMonth<1) {
+				throw  new Exception("Invalid month:"+ iMonth);
+			}
+			if (iDay > 31 || iDay < 1) {
+				throw new Exception("Invalid day:" + iMonth);
+			}
+			if (iYear > 2030 || iYear < 2019) {
+				throw new Exception("Invalid year:" + iMonth);
+			}
+			DateTime dtRow2 = new DateTime(2019, 12, 31);
+
+			DateTime dtCurrent = new DateTime(iYear, iMonth, iDay);
+
+			int iDiffDays = Convert.ToInt32((dtCurrent - dtRow2).TotalDays);
+
+			return 2 + iDiffDays;
+
+		}
 		private static void validateFile(SLDocument sl, Dictionary<string, string> oDictCellToCountryName) {
 			foreach (var item in oDictCellToCountryName) {
 				var strValue = sl.GetCellValueAsString(item.Key).Trim();
