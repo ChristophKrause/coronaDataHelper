@@ -1709,6 +1709,13 @@
         "new_cases": 729.0,
         "new_deaths": 55.0,
         "total_deaths": 1569.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 57090.0,
+        "new_cases": 956.0,
+        "new_deaths": 63.0,
+        "total_deaths": 1632.0
       }
     ]
   },
@@ -3422,6 +3429,13 @@
         "new_cases": 1070.0,
         "new_deaths": 44.0,
         "total_deaths": 1635.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 109569.0,
+        "new_cases": 1266.0,
+        "new_deaths": 76.0,
+        "total_deaths": 1711.0
       }
     ]
   },
@@ -5135,6 +5149,13 @@
         "new_cases": 2226.0,
         "new_deaths": 93.0,
         "total_deaths": 5758.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 267714.0,
+        "new_cases": 2979.0,
+        "new_deaths": 116.0,
+        "total_deaths": 5874.0
       }
     ]
   },
@@ -6848,6 +6869,13 @@
         "new_cases": 2778.0,
         "new_deaths": 163.0,
         "total_deaths": 8216.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 366609.0,
+        "new_cases": 5027.0,
+        "new_deaths": 183.0,
+        "total_deaths": 8399.0
       }
     ]
   },
@@ -8560,6 +8588,13 @@
         "total_cases": 14497.0,
         "new_cases": 107.0,
         "new_deaths": 1.0,
+        "total_deaths": 227.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 14639.0,
+        "new_cases": 142.0,
+        "new_deaths": 0.0,
         "total_deaths": 227.0
       }
     ]
@@ -10274,6 +10309,13 @@
         "new_cases": 1551.0,
         "new_deaths": 128.0,
         "total_deaths": 3716.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 154500.0,
+        "new_cases": 1656.0,
+        "new_deaths": 64.0,
+        "total_deaths": 3780.0
       }
     ]
   },
@@ -11987,6 +12029,13 @@
         "new_cases": 390.0,
         "new_deaths": 31.0,
         "total_deaths": 851.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 41752.0,
+        "new_cases": 396.0,
+        "new_deaths": 14.0,
+        "total_deaths": 865.0
       }
     ]
   },
@@ -13700,6 +13749,13 @@
         "new_cases": 432.0,
         "new_deaths": 7.0,
         "total_deaths": 261.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 15695.0,
+        "new_cases": 370.0,
+        "new_deaths": 7.0,
+        "total_deaths": 268.0
       }
     ]
   },
@@ -15413,6 +15469,13 @@
         "new_cases": 1328.0,
         "new_deaths": 56.0,
         "total_deaths": 2442.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 124027.0,
+        "new_cases": 1596.0,
+        "new_deaths": 51.0,
+        "total_deaths": 2493.0
       }
     ]
   },
@@ -17126,6 +17189,13 @@
         "new_cases": 3657.0,
         "new_deaths": 221.0,
         "total_deaths": 8402.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 439609.0,
+        "new_cases": 4145.0,
+        "new_deaths": 183.0,
+        "total_deaths": 8585.0
       }
     ]
   },
@@ -18839,6 +18909,13 @@
         "new_cases": 698.0,
         "new_deaths": 32.0,
         "total_deaths": 1870.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 82472.0,
+        "new_cases": 735.0,
+        "new_deaths": 49.0,
+        "total_deaths": 1919.0
       }
     ]
   },
@@ -20552,6 +20629,13 @@
         "new_cases": 405.0,
         "new_deaths": 25.0,
         "total_deaths": 594.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 29734.0,
+        "new_cases": 484.0,
+        "new_deaths": 15.0,
+        "total_deaths": 609.0
       }
     ]
   },
@@ -22265,6 +22349,13 @@
         "new_cases": 200.0,
         "new_deaths": 11.0,
         "total_deaths": 588.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 22783.0,
+        "new_cases": 178.0,
+        "new_deaths": 26.0,
+        "total_deaths": 614.0
       }
     ]
   },
@@ -23978,6 +24069,13 @@
         "new_cases": 1946.0,
         "new_deaths": 127.0,
         "total_deaths": 4323.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 161377.0,
+        "new_cases": 2700.0,
+        "new_deaths": 260.0,
+        "total_deaths": 4583.0
       }
     ]
   },
@@ -25691,6 +25789,13 @@
         "new_cases": 850.0,
         "new_deaths": 37.0,
         "total_deaths": 969.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 40513.0,
+        "new_cases": 953.0,
+        "new_deaths": 63.0,
+        "total_deaths": 1032.0
       }
     ]
   },
@@ -27404,6 +27509,13 @@
         "new_cases": 1217.0,
         "new_deaths": 59.0,
         "total_deaths": 1468.0
+      },
+      {
+        "date": "2021-01-13",
+        "total_cases": 54636.0,
+        "new_cases": 1104.0,
+        "new_deaths": 37.0,
+        "total_deaths": 1505.0
       }
     ]
   }
