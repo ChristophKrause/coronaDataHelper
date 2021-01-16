@@ -91,6 +91,11 @@ namespace CoronaDataHelper.DataSource {
 			oJSONCountry.location = "Canada";
 			m_oJSONCoronaVirusData.CAN = oJSONCountry;
 			m_listCountries.Add(oJSONCountry);
+
+			oJSONCountry = new JSONCountry();
+			oJSONCountry.location = "Israel";
+			m_oJSONCoronaVirusData.ISR = oJSONCountry;
+			m_listCountries.Add(oJSONCountry);
 		}
 	
 		private JSONCoronaVirusData getJSONData(string strjSONURL, string strFileNameJSON) {

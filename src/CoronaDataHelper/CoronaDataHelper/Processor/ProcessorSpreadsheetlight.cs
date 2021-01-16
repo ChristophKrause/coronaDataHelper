@@ -108,7 +108,7 @@ namespace CoronaDataHelper.Processor {
 			setData(sl, oJSONCoronaVirusData.BRA, "L", eDataType);
 			setData(sl, oJSONCoronaVirusData.IRL, "M", eDataType);
 			setData(sl, oJSONCoronaVirusData.CAN, "N", eDataType);
-
+			setData(sl, oJSONCoronaVirusData.ISR, "O", eDataType);
 			Console.WriteLine("save Excel " + strFileNameExcelx);
 
 			sl.Save();
