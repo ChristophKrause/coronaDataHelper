@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using static CoronaDataHelper.Processor.ProviderDataSource;
 
 namespace CoronaDataHelper.Processor {
 
@@ -20,6 +21,10 @@ namespace CoronaDataHelper.Processor {
 		private static readonly Dictionary<string, string> m_oDictCellToCountryName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Italy"},{"C1","Spain"},{"D1","USA"},{"E1","Germany"},{"F1","France"},{"G1","Iran"},
 			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"}
+		};
+
+		private static readonly Dictionary<string, string> m_oDictCellToProvider = new Dictionary<string, string>() {
+			{"A1","Date"},{"B1","RKI"},{"C1","JHU"},{"D1","Worldometer"}
 		};
 		internal enum EDataType {
 			death,
@@ -39,14 +44,53 @@ namespace CoronaDataHelper.Processor {
 				processXLSX_ger(strFilename, oJSONCoronaVirusDataGermany, EDataType.infected);
 				processXLSX_ger(strFilename, oJSONCoronaVirusDataGermany, EDataType.death);
 				return true;
+			} else if (oJSONData is Dictionary<EDataProvider, JSONCoronaVirusData> dictoJSONCoronaVirusData) {
+				foreach (var item in dictoJSONCoronaVirusData) {
+					Console.WriteLine("Found Data for:" + item.Key);
+				}
+
+				processXLSX(strFilename, dictoJSONCoronaVirusData, EDataType.infected);
+				processXLSX(strFilename, dictoJSONCoronaVirusData, EDataType.death);
+				return true;
+			} else if (oJSONData is JSONCoronaVirusData oJSONCoronaVirusData) {
+				processXLSX(strFilename, oJSONCoronaVirusData, EDataType.infected);
+				processXLSX(strFilename, oJSONCoronaVirusData, EDataType.death);
+				return true;
+			} else {
+				Console.WriteLine("Wrong data");
+				return false;
 			}
-
-			processXLSX(strFilename, (JSONCoronaVirusData)oJSONData, EDataType.infected);
-			processXLSX(strFilename, (JSONCoronaVirusData)oJSONData, EDataType.death);
-
-			return true;
 		}
+		private static void processXLSX(string strFileNameExcelx, Dictionary<EDataProvider, JSONCoronaVirusData> dictoJSONCoronaVirusData, EDataType eDataType) {
+			//XLSX Layout:
+			//Date	RKI	JHU	Worldometer
 
+			Console.WriteLine("OPEN Excel " + strFileNameExcelx);
+			SLDocument sl = new SLDocument(strFileNameExcelx, eDataType.ToString());
+
+			validateFile(sl, m_oDictCellToProvider);
+
+			//TODO: Make these calls generic by a List with propertynames
+
+			setData(
+				sl: sl,
+				oJSONCountry: dictoJSONCoronaVirusData[EDataProvider.GermanyOnlyMarlonLueckert].DEU,
+				strColumn: "B",
+				eRow: eDataType);
+			setData(
+				sl: sl,
+				oJSONCountry: dictoJSONCoronaVirusData[EDataProvider.OurWorldInData].DEU,
+				strColumn: "C",
+				eRow: eDataType);
+			setData(
+				sl: sl,
+				oJSONCountry: dictoJSONCoronaVirusData[EDataProvider.Worldometer].DEU,
+				strColumn: "D",
+				eRow: eDataType);		
+			Console.WriteLine("save Excel " + strFileNameExcelx);
+
+			sl.Save();
+		}
 
 		private static void processXLSX_ger(string strFileNameExcelx, JSONCoronaVirusDataGermany oJSONCoronaVirusDataGermany, EDataType eDataType) {
 			//XLSX Layout:

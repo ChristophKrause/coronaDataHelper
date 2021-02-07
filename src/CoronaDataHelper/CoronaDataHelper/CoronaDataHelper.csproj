@@ -86,6 +86,7 @@
   <ItemGroup>
     <Compile Include="DataSource\DataSourceCovid19APIPOC.cs" />
     <Compile Include="DataSource\DataSourceGermanyJHUCSSEGIT.cs" />
+    <Compile Include="DataSource\DataSourceMarlonLueckertGermany.cs" />
     <Compile Include="DataSource\DataSourceMarlonLueckert.cs" />
     <Compile Include="DataSource\DataSourceWorldometer.cs" />
     <Compile Include="DataSource\DataSourceOurworldIndata.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="JSON\JSONCountry.cs" />
     <Compile Include="JSON\JSONDailyData.cs" />
     <Compile Include="JSON\JSONDailyReport.cs" />
+    <Compile Include="JSON\JSONGermanyDataMarlonLueckert.cs" />
     <Compile Include="JSON\JSONStateDataMarlonLueckert.cs" />
     <Compile Include="JSON\JSONWorldometer.cs" />
     <Compile Include="Processor\ProcessorSpreadsheetlight.cs" />

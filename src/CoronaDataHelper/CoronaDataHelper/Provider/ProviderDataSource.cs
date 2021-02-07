@@ -11,6 +11,8 @@ namespace CoronaDataHelper.Processor {
 			Worldometer,
 			GermanyJHUCSSEGIT,
 			GermanyMarlonLueckert,
+			GermanyOnlyMarlonLueckert,
+			GermanyOnly
 		}
 
 		internal static IDataSource getDataSource(EDataProvider edataprovider) {
@@ -27,7 +29,11 @@ namespace CoronaDataHelper.Processor {
 				case EDataProvider.GermanyMarlonLueckert:
 					Console.WriteLine("Using " + nameof(DataSourceMarlonLueckert));
 					return new DataSourceMarlonLueckert();
+				case EDataProvider.GermanyOnlyMarlonLueckert:
+					Console.WriteLine("Using " + nameof(DataSourceMarlonLueckertGermany));
+					return new DataSourceMarlonLueckertGermany();
 				default:
+					Console.WriteLine("Not found " + edataprovider);
 					return null;
 			}
 		}

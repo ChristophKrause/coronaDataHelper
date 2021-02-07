@@ -2,6 +2,10 @@
 
 namespace CoronaDataHelper.JSON {
 	public class JSONCountry {
+		
+
+		public JSONCountry() {}
+
 		public string continent { get; set; }
 		public string location { get; set; }
 		public float? population { get; set; }

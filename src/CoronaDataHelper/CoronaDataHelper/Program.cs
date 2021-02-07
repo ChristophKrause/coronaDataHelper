@@ -20,7 +20,7 @@ namespace CoronaDataHelper {
 
 		private static void Main(string[] args) {
 			try {
-			
+
 				if (args.Length < 2) {
 					Console.WriteLine("Usage:CoronaDataHelper.exe <EXCELFILE> <EDataProvider>");
 					Console.WriteLine("EDataProvider:");
@@ -43,34 +43,48 @@ namespace CoronaDataHelper {
 					throw new Exception("Can not find ExcelFile:" + strFilename);
 				}
 
-				IDataSource oIDataSource;
+
 				if (args[1].Equals(EDataProvider.Worldometer.ToString())) {
-					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
+					IDataSource oIDataSource = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
+					process(oIDataSource.process(), strFilename);
 				} else if (args[1].Equals(EDataProvider.OurWorldInData.ToString())) {
-					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
+					IDataSource oIDataSource = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
+					process(oIDataSource.process(), strFilename);
 				} else if (args[1].Equals(EDataProvider.GermanyJHUCSSEGIT.ToString())) {
-					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyJHUCSSEGIT);
+					IDataSource oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyJHUCSSEGIT);
+					process(oIDataSource.process(), strFilename);
 				} else if (args[1].Equals(EDataProvider.GermanyMarlonLueckert.ToString())) {
-					oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyMarlonLueckert);
+					IDataSource oIDataSource = ProviderDataSource.getDataSource(EDataProvider.GermanyMarlonLueckert);
+					process(oIDataSource.process(), strFilename);
+				} else if (args[1].Equals(EDataProvider.GermanyOnly.ToString())) {
+					Dictionary<EDataProvider, IDataSource> dictoIDataSource = new Dictionary<EDataProvider, IDataSource>();
+					IDataSource oIDataSourceWorldometer = ProviderDataSource.getDataSource(EDataProvider.Worldometer);
+					IDataSource oIDataSource2JHU = ProviderDataSource.getDataSource(EDataProvider.OurWorldInData);
+					IDataSource oIDataSourceRKI = ProviderDataSource.getDataSource(EDataProvider.GermanyOnlyMarlonLueckert);
+					dictoIDataSource.Add(EDataProvider.Worldometer, oIDataSourceWorldometer);
+					dictoIDataSource.Add(EDataProvider.OurWorldInData, oIDataSource2JHU);
+					dictoIDataSource.Add(EDataProvider.GermanyOnlyMarlonLueckert, oIDataSourceRKI);
+
+					Dictionary<EDataProvider, JSONCoronaVirusData> dictoJSONCoronaVirusData = new Dictionary<EDataProvider, JSONCoronaVirusData>();
+					foreach (var item in dictoIDataSource) {
+						JSONCoronaVirusData oJSONCoronaVirusData = (JSONCoronaVirusData)item.Value.process();
+						dictoJSONCoronaVirusData.Add(item.Key, oJSONCoronaVirusData);
+					}
+					process(dictoJSONCoronaVirusData, strFilename);
 				} else {
 					throw new Exception("Unknown data provider" + args[1]);
 				}
-				
-			
-				process(oIDataSource.process(), strFilename);
-				
-			
 			} catch (Exception e) {
 				Console.WriteLine("Error:" + e);
 			}
 		}
 
-		private static void process( object data, string strFilename) {
+		private static void process(object data, string strFilename) {
 			IDataProcessor oIDataProcessor = ProviderProcessor.getDataProcessor(ProviderProcessor.EDataProcessor.Spreadsheetlight);
-				oIDataProcessor.process(strFilename, data);
-				return;
-			
-			
+			oIDataProcessor.process(strFilename, data);
+			return;
+
+
 		}
 
 

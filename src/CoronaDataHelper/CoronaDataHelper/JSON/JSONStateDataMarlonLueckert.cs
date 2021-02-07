@@ -63,15 +63,14 @@ namespace CoronaDataHelper.JSON {
 			if (oStateDataForeign.id != id || oStateDataForeign.name != name) {
 				throw new Exception("Data incompatible");
 			}
-			if (oStateDataForeign.history==null || oStateDataForeign.history.Count==0)
-			{
+			if (oStateDataForeign.history == null || oStateDataForeign.history.Count == 0) {
 				return;
 			}
 			if (history == null || history.Count == 0) {
 				return;
 			}
 			//asume that all days have data (makes it easier to have no edge cases)
-			foreach (var item  in history) {
+			foreach (var item in history) {
 				DailyData oDailyDataForeign = findItem(oStateDataForeign.history, item.date);
 				if (item.deaths == null) {
 					item.deaths = oDailyDataForeign.deaths;
@@ -88,7 +87,7 @@ namespace CoronaDataHelper.JSON {
 					return item;
 				}
 			}
-			throw  new Exception("Can not find item for date "+ dtNeedle);
+			throw new Exception("Can not find item for date " + dtNeedle);
 
 		}
 	}
@@ -100,11 +99,11 @@ namespace CoronaDataHelper.JSON {
 
 		public JSONDailyData convert() {
 			JSONDailyData oJSONDailyData = new JSONDailyData();
-			
+
 			oJSONDailyData.new_deaths = deaths ?? default(int);
 			oJSONDailyData.new_cases = cases ?? default(int);
 
-			oJSONDailyData.date = date.ToString("yyyy-MM-dd"); 
+			oJSONDailyData.date = date.ToString("yyyy-MM-dd");
 			return oJSONDailyData;
 		}
 	}
