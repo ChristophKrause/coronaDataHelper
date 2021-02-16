@@ -99,7 +99,7 @@
       },
       {
         "date": "2020-01-22",
-        "new_cases": 4.0,
+        "new_cases": 3.0,
         "new_deaths": 1.0
       },
       {
@@ -175,6 +175,11 @@
       {
         "date": "2020-02-12",
         "new_cases": 2.0,
+        "new_deaths": 0.0
+      },
+      {
+        "date": "2020-02-14",
+        "new_cases": 1.0,
         "new_deaths": 0.0
       },
       {
@@ -319,7 +324,7 @@
       },
       {
         "date": "2020-03-18",
-        "new_cases": 3615.0,
+        "new_cases": 3614.0,
         "new_deaths": 64.0
       },
       {
@@ -349,17 +354,17 @@
       },
       {
         "date": "2020-03-24",
-        "new_cases": 4881.0,
+        "new_cases": 4882.0,
         "new_deaths": 167.0
       },
       {
         "date": "2020-03-25",
-        "new_cases": 5683.0,
+        "new_cases": 5682.0,
         "new_deaths": 217.0
       },
       {
         "date": "2020-03-26",
-        "new_cases": 5911.0,
+        "new_cases": 5910.0,
         "new_deaths": 266.0
       },
       {
@@ -374,12 +379,12 @@
       },
       {
         "date": "2020-03-29",
-        "new_cases": 3084.0,
+        "new_cases": 3083.0,
         "new_deaths": 165.0
       },
       {
         "date": "2020-03-30",
-        "new_cases": 4125.0,
+        "new_cases": 4124.0,
         "new_deaths": 267.0
       },
       {
@@ -409,7 +414,7 @@
       },
       {
         "date": "2020-04-05",
-        "new_cases": 2553.0,
+        "new_cases": 2552.0,
         "new_deaths": 182.0
       },
       {
@@ -424,7 +429,7 @@
       },
       {
         "date": "2020-04-08",
-        "new_cases": 5281.0,
+        "new_cases": 5280.0,
         "new_deaths": 340.0
       },
       {
@@ -439,12 +444,12 @@
       },
       {
         "date": "2020-04-11",
-        "new_cases": 2891.0,
+        "new_cases": 2890.0,
         "new_deaths": 202.0
       },
       {
         "date": "2020-04-12",
-        "new_cases": 1865.0,
+        "new_cases": 1866.0,
         "new_deaths": 168.0
       },
       {
@@ -489,7 +494,7 @@
       },
       {
         "date": "2020-04-21",
-        "new_cases": 2188.0,
+        "new_cases": 2187.0,
         "new_deaths": 136.0
       },
       {
@@ -514,7 +519,7 @@
       },
       {
         "date": "2020-04-26",
-        "new_cases": 706.0,
+        "new_cases": 705.0,
         "new_deaths": 29.0
       },
       {
@@ -595,7 +600,7 @@
       {
         "date": "2020-05-12",
         "new_cases": 855.0,
-        "new_deaths": 33.0
+        "new_deaths": 32.0
       },
       {
         "date": "2020-05-13",
@@ -729,7 +734,7 @@
       },
       {
         "date": "2020-06-08",
-        "new_cases": 300.0,
+        "new_cases": 299.0,
         "new_deaths": 3.0
       },
       {
@@ -809,7 +814,7 @@
       },
       {
         "date": "2020-06-24",
-        "new_cases": 503.0,
+        "new_cases": 504.0,
         "new_deaths": 2.0
       },
       {
@@ -849,7 +854,7 @@
       },
       {
         "date": "2020-07-02",
-        "new_cases": 469.0,
+        "new_cases": 470.0,
         "new_deaths": 4.0
       },
       {
@@ -1139,7 +1144,7 @@
       },
       {
         "date": "2020-08-29",
-        "new_cases": 831.0,
+        "new_cases": 832.0,
         "new_deaths": 2.0
       },
       {
@@ -1169,7 +1174,7 @@
       },
       {
         "date": "2020-09-04",
-        "new_cases": 1493.0,
+        "new_cases": 1494.0,
         "new_deaths": 7.0
       },
       {
@@ -1274,7 +1279,7 @@
       },
       {
         "date": "2020-09-25",
-        "new_cases": 2330.0,
+        "new_cases": 2329.0,
         "new_deaths": 14.0
       },
       {
@@ -1364,7 +1369,7 @@
       },
       {
         "date": "2020-10-13",
-        "new_cases": 5378.0,
+        "new_cases": 5377.0,
         "new_deaths": 55.0
       },
       {
@@ -1394,7 +1399,7 @@
       },
       {
         "date": "2020-10-19",
-        "new_cases": 6479.0,
+        "new_cases": 6480.0,
         "new_deaths": 85.0
       },
       {
@@ -1410,7 +1415,7 @@
       {
         "date": "2020-10-22",
         "new_cases": 13900.0,
-        "new_deaths": 191.0
+        "new_deaths": 192.0
       },
       {
         "date": "2020-10-23",
@@ -1419,12 +1424,12 @@
       },
       {
         "date": "2020-10-24",
-        "new_cases": 11105.0,
+        "new_cases": 11104.0,
         "new_deaths": 119.0
       },
       {
         "date": "2020-10-25",
-        "new_cases": 7482.0,
+        "new_cases": 7480.0,
         "new_deaths": 121.0
       },
       {
@@ -1434,17 +1439,17 @@
       },
       {
         "date": "2020-10-27",
-        "new_cases": 15990.0,
+        "new_cases": 15985.0,
         "new_deaths": 232.0
       },
       {
         "date": "2020-10-28",
         "new_cases": 19266.0,
-        "new_deaths": 236.0
+        "new_deaths": 237.0
       },
       {
         "date": "2020-10-29",
-        "new_cases": 19872.0,
+        "new_cases": 19870.0,
         "new_deaths": 259.0
       },
       {
@@ -1464,12 +1469,12 @@
       },
       {
         "date": "2020-11-02",
-        "new_cases": 15258.0,
+        "new_cases": 15257.0,
         "new_deaths": 274.0
       },
       {
         "date": "2020-11-03",
-        "new_cases": 19352.0,
+        "new_cases": 19351.0,
         "new_deaths": 319.0
       },
       {
@@ -1479,8 +1484,8 @@
       },
       {
         "date": "2020-11-05",
-        "new_cases": 22288.0,
-        "new_deaths": 327.0
+        "new_cases": 22286.0,
+        "new_deaths": 328.0
       },
       {
         "date": "2020-11-06",
@@ -1504,22 +1509,22 @@
       },
       {
         "date": "2020-11-10",
-        "new_cases": 19633.0,
+        "new_cases": 19631.0,
         "new_deaths": 329.0
       },
       {
         "date": "2020-11-11",
         "new_cases": 22701.0,
-        "new_deaths": 405.0
+        "new_deaths": 408.0
       },
       {
         "date": "2020-11-12",
-        "new_cases": 23507.0,
-        "new_deaths": 406.0
+        "new_cases": 23506.0,
+        "new_deaths": 407.0
       },
       {
         "date": "2020-11-13",
-        "new_cases": 21390.0,
+        "new_cases": 21389.0,
         "new_deaths": 398.0
       },
       {
@@ -1535,27 +1540,27 @@
       {
         "date": "2020-11-16",
         "new_cases": 14718.0,
-        "new_deaths": 429.0
+        "new_deaths": 430.0
       },
       {
         "date": "2020-11-17",
-        "new_cases": 20357.0,
+        "new_cases": 20356.0,
         "new_deaths": 490.0
       },
       {
         "date": "2020-11-18",
-        "new_cases": 23692.0,
+        "new_cases": 23689.0,
         "new_deaths": 513.0
       },
       {
         "date": "2020-11-19",
-        "new_cases": 23761.0,
-        "new_deaths": 535.0
+        "new_cases": 23759.0,
+        "new_deaths": 536.0
       },
       {
         "date": "2020-11-20",
-        "new_cases": 22311.0,
-        "new_deaths": 499.0
+        "new_cases": 22310.0,
+        "new_deaths": 500.0
       },
       {
         "date": "2020-11-21",
@@ -1564,88 +1569,88 @@
       },
       {
         "date": "2020-11-22",
-        "new_cases": 8866.0,
+        "new_cases": 8865.0,
         "new_deaths": 270.0
       },
       {
         "date": "2020-11-23",
-        "new_cases": 15104.0,
+        "new_cases": 15102.0,
         "new_deaths": 449.0
       },
       {
         "date": "2020-11-24",
         "new_cases": 19437.0,
-        "new_deaths": 478.0
+        "new_deaths": 480.0
       },
       {
         "date": "2020-11-25",
-        "new_cases": 22090.0,
-        "new_deaths": 539.0
+        "new_cases": 22088.0,
+        "new_deaths": 544.0
       },
       {
         "date": "2020-11-26",
-        "new_cases": 22796.0,
+        "new_cases": 22795.0,
         "new_deaths": 625.0
       },
       {
         "date": "2020-11-27",
         "new_cases": 20155.0,
-        "new_deaths": 594.0
+        "new_deaths": 596.0
       },
       {
         "date": "2020-11-28",
-        "new_cases": 14941.0,
-        "new_deaths": 382.0
+        "new_cases": 14940.0,
+        "new_deaths": 384.0
       },
       {
         "date": "2020-11-29",
-        "new_cases": 8810.0,
+        "new_cases": 8813.0,
         "new_deaths": 311.0
       },
       {
         "date": "2020-11-30",
-        "new_cases": 13347.0,
-        "new_deaths": 511.0
+        "new_cases": 13344.0,
+        "new_deaths": 512.0
       },
       {
         "date": "2020-12-01",
-        "new_cases": 19231.0,
-        "new_deaths": 623.0
+        "new_cases": 19226.0,
+        "new_deaths": 625.0
       },
       {
         "date": "2020-12-02",
-        "new_cases": 23221.0,
-        "new_deaths": 692.0
+        "new_cases": 23222.0,
+        "new_deaths": 694.0
       },
       {
         "date": "2020-12-03",
-        "new_cases": 24462.0,
+        "new_cases": 24458.0,
         "new_deaths": 779.0
       },
       {
         "date": "2020-12-04",
-        "new_cases": 22293.0,
-        "new_deaths": 768.0
+        "new_cases": 22295.0,
+        "new_deaths": 767.0
       },
       {
         "date": "2020-12-05",
-        "new_cases": 15708.0,
+        "new_cases": 15709.0,
         "new_deaths": 494.0
       },
       {
         "date": "2020-12-06",
-        "new_cases": 10246.0,
+        "new_cases": 10247.0,
         "new_deaths": 337.0
       },
       {
         "date": "2020-12-07",
-        "new_cases": 16489.0,
-        "new_deaths": 641.0
+        "new_cases": 16490.0,
+        "new_deaths": 642.0
       },
       {
         "date": "2020-12-08",
-        "new_cases": 22830.0,
-        "new_deaths": 796.0
+        "new_cases": 22829.0,
+        "new_deaths": 802.0
       },
       {
         "date": "2020-12-09",
@@ -1654,83 +1659,83 @@
       },
       {
         "date": "2020-12-10",
-        "new_cases": 29091.0,
-        "new_deaths": 1006.0
+        "new_cases": 29092.0,
+        "new_deaths": 1007.0
       },
       {
         "date": "2020-12-11",
-        "new_cases": 27280.0,
-        "new_deaths": 916.0
+        "new_cases": 27277.0,
+        "new_deaths": 917.0
       },
       {
         "date": "2020-12-12",
-        "new_cases": 20634.0,
+        "new_cases": 20636.0,
         "new_deaths": 720.0
       },
       {
         "date": "2020-12-13",
         "new_cases": 12498.0,
-        "new_deaths": 482.0
+        "new_deaths": 486.0
       },
       {
         "date": "2020-12-14",
-        "new_cases": 19089.0,
+        "new_cases": 19087.0,
         "new_deaths": 767.0
       },
       {
         "date": "2020-12-15",
-        "new_cases": 26921.0,
-        "new_deaths": 947.0
+        "new_cases": 26920.0,
+        "new_deaths": 949.0
       },
       {
         "date": "2020-12-16",
         "new_cases": 31392.0,
-        "new_deaths": 996.0
+        "new_deaths": 997.0
       },
       {
         "date": "2020-12-17",
-        "new_cases": 32058.0,
-        "new_deaths": 1071.0
+        "new_cases": 32056.0,
+        "new_deaths": 1075.0
       },
       {
         "date": "2020-12-18",
-        "new_cases": 29809.0,
-        "new_deaths": 953.0
+        "new_cases": 29806.0,
+        "new_deaths": 954.0
       },
       {
         "date": "2020-12-19",
         "new_cases": 21785.0,
-        "new_deaths": 725.0
+        "new_deaths": 726.0
       },
       {
         "date": "2020-12-20",
-        "new_cases": 13962.0,
+        "new_cases": 13964.0,
         "new_deaths": 520.0
       },
       {
         "date": "2020-12-21",
-        "new_cases": 20398.0,
-        "new_deaths": 849.0
+        "new_cases": 20397.0,
+        "new_deaths": 852.0
       },
       {
         "date": "2020-12-22",
-        "new_cases": 29035.0,
-        "new_deaths": 1116.0
+        "new_cases": 29034.0,
+        "new_deaths": 1119.0
       },
       {
         "date": "2020-12-23",
-        "new_cases": 34032.0,
-        "new_deaths": 1141.0
+        "new_cases": 34036.0,
+        "new_deaths": 1147.0
       },
       {
         "date": "2020-12-24",
-        "new_cases": 21214.0,
-        "new_deaths": 668.0
+        "new_cases": 21212.0,
+        "new_deaths": 670.0
       },
       {
         "date": "2020-12-25",
-        "new_cases": 13252.0,
-        "new_deaths": 473.0
+        "new_cases": 13244.0,
+        "new_deaths": 476.0
       },
       {
         "date": "2020-12-26",
@@ -1740,22 +1745,22 @@
       {
         "date": "2020-12-27",
         "new_cases": 9840.0,
-        "new_deaths": 482.0
+        "new_deaths": 483.0
       },
       {
         "date": "2020-12-28",
-        "new_cases": 15751.0,
+        "new_cases": 15752.0,
         "new_deaths": 826.0
       },
       {
         "date": "2020-12-29",
-        "new_cases": 27581.0,
-        "new_deaths": 1143.0
+        "new_cases": 27580.0,
+        "new_deaths": 1148.0
       },
       {
         "date": "2020-12-30",
-        "new_cases": 31171.0,
-        "new_deaths": 1161.0
+        "new_cases": 31167.0,
+        "new_deaths": 1162.0
       },
       {
         "date": "2020-12-31",
@@ -1765,227 +1770,232 @@
       {
         "date": "2021-01-01",
         "new_cases": 10286.0,
-        "new_deaths": 374.0
+        "new_deaths": 376.0
       },
       {
         "date": "2021-01-02",
-        "new_cases": 10027.0,
-        "new_deaths": 527.0
+        "new_cases": 10028.0,
+        "new_deaths": 529.0
       },
       {
         "date": "2021-01-03",
-        "new_cases": 8849.0,
-        "new_deaths": 452.0
+        "new_cases": 8847.0,
+        "new_deaths": 451.0
       },
       {
         "date": "2021-01-04",
-        "new_cases": 14236.0,
-        "new_deaths": 707.0
+        "new_cases": 14235.0,
+        "new_deaths": 713.0
       },
       {
         "date": "2021-01-05",
-        "new_cases": 27434.0,
-        "new_deaths": 936.0
+        "new_cases": 27430.0,
+        "new_deaths": 940.0
       },
       {
         "date": "2021-01-06",
-        "new_cases": 28032.0,
-        "new_deaths": 819.0
+        "new_cases": 28033.0,
+        "new_deaths": 821.0
       },
       {
         "date": "2021-01-07",
         "new_cases": 26197.0,
-        "new_deaths": 901.0
+        "new_deaths": 907.0
       },
       {
         "date": "2021-01-08",
-        "new_cases": 24573.0,
-        "new_deaths": 818.0
+        "new_cases": 24571.0,
+        "new_deaths": 825.0
       },
       {
         "date": "2021-01-09",
-        "new_cases": 16657.0,
-        "new_deaths": 523.0
+        "new_cases": 16655.0,
+        "new_deaths": 528.0
       },
       {
         "date": "2021-01-10",
-        "new_cases": 8511.0,
-        "new_deaths": 374.0
+        "new_cases": 8513.0,
+        "new_deaths": 378.0
       },
       {
         "date": "2021-01-11",
-        "new_cases": 13546.0,
-        "new_deaths": 520.0
+        "new_cases": 13544.0,
+        "new_deaths": 527.0
       },
       {
         "date": "2021-01-12",
-        "new_cases": 22625.0,
-        "new_deaths": 774.0
+        "new_cases": 22622.0,
+        "new_deaths": 781.0
       },
       {
         "date": "2021-01-13",
-        "new_cases": 24170.0,
-        "new_deaths": 833.0
+        "new_cases": 24169.0,
+        "new_deaths": 840.0
       },
       {
         "date": "2021-01-14",
-        "new_cases": 20496.0,
-        "new_deaths": 794.0
+        "new_cases": 20493.0,
+        "new_deaths": 804.0
       },
       {
         "date": "2021-01-15",
-        "new_cases": 18333.0,
-        "new_deaths": 676.0
+        "new_cases": 18330.0,
+        "new_deaths": 687.0
       },
       {
         "date": "2021-01-16",
-        "new_cases": 13415.0,
-        "new_deaths": 429.0
+        "new_cases": 13416.0,
+        "new_deaths": 439.0
       },
       {
         "date": "2021-01-17",
-        "new_cases": 6620.0,
+        "new_cases": 6619.0,
         "new_deaths": 255.0
       },
       {
         "date": "2021-01-18",
         "new_cases": 9197.0,
-        "new_deaths": 437.0
+        "new_deaths": 444.0
       },
       {
         "date": "2021-01-19",
-        "new_cases": 18519.0,
-        "new_deaths": 589.0
+        "new_cases": 18513.0,
+        "new_deaths": 599.0
       },
       {
         "date": "2021-01-20",
-        "new_cases": 19529.0,
-        "new_deaths": 592.0
+        "new_cases": 19527.0,
+        "new_deaths": 609.0
       },
       {
         "date": "2021-01-21",
-        "new_cases": 16815.0,
-        "new_deaths": 523.0
+        "new_cases": 16806.0,
+        "new_deaths": 537.0
       },
       {
         "date": "2021-01-22",
-        "new_cases": 15041.0,
-        "new_deaths": 457.0
+        "new_cases": 15038.0,
+        "new_deaths": 468.0
       },
       {
         "date": "2021-01-23",
-        "new_cases": 11614.0,
-        "new_deaths": 297.0
+        "new_cases": 11616.0,
+        "new_deaths": 306.0
       },
       {
         "date": "2021-01-24",
-        "new_cases": 5029.0,
-        "new_deaths": 156.0
+        "new_cases": 5030.0,
+        "new_deaths": 162.0
       },
       {
         "date": "2021-01-25",
-        "new_cases": 6791.0,
-        "new_deaths": 288.0
+        "new_cases": 6793.0,
+        "new_deaths": 297.0
       },
       {
         "date": "2021-01-26",
-        "new_cases": 15534.0,
-        "new_deaths": 376.0
+        "new_cases": 15535.0,
+        "new_deaths": 397.0
       },
       {
         "date": "2021-01-27",
         "new_cases": 15897.0,
-        "new_deaths": 379.0
+        "new_deaths": 402.0
       },
       {
         "date": "2021-01-28",
-        "new_cases": 13433.0,
-        "new_deaths": 281.0
+        "new_cases": 13425.0,
+        "new_deaths": 295.0
       },
       {
         "date": "2021-01-29",
-        "new_cases": 12630.0,
-        "new_deaths": 259.0
+        "new_cases": 12626.0,
+        "new_deaths": 276.0
       },
       {
         "date": "2021-01-30",
-        "new_cases": 10034.0,
-        "new_deaths": 136.0
+        "new_cases": 10035.0,
+        "new_deaths": 149.0
       },
       {
         "date": "2021-01-31",
-        "new_cases": 4217.0,
-        "new_deaths": 86.0
+        "new_cases": 4218.0,
+        "new_deaths": 96.0
       },
       {
         "date": "2021-02-01",
-        "new_cases": 5919.0,
-        "new_deaths": 172.0
+        "new_cases": 5913.0,
+        "new_deaths": 182.0
       },
       {
         "date": "2021-02-02",
-        "new_cases": 12353.0,
-        "new_deaths": 187.0
+        "new_cases": 12350.0,
+        "new_deaths": 218.0
       },
       {
         "date": "2021-02-03",
-        "new_cases": 13469.0,
-        "new_deaths": 170.0
+        "new_cases": 13473.0,
+        "new_deaths": 188.0
       },
       {
         "date": "2021-02-04",
-        "new_cases": 11573.0,
-        "new_deaths": 158.0
+        "new_cases": 11567.0,
+        "new_deaths": 175.0
       },
       {
         "date": "2021-02-05",
-        "new_cases": 10062.0,
-        "new_deaths": 103.0
+        "new_cases": 10059.0,
+        "new_deaths": 119.0
       },
       {
         "date": "2021-02-06",
-        "new_cases": 8428.0,
-        "new_deaths": 49.0
-      },
-      {
-        "date": "2021-02-07",
-        "new_cases": 3115.0,
-        "new_deaths": 26.0
-      },
-      {
-        "date": "2021-02-08",
-        "new_cases": 4193.0,
+        "new_cases": 8426.0,
         "new_deaths": 64.0
       },
       {
+        "date": "2021-02-07",
+        "new_cases": 3117.0,
+        "new_deaths": 32.0
+      },
+      {
+        "date": "2021-02-08",
+        "new_cases": 4197.0,
+        "new_deaths": 78.0
+      },
+      {
         "date": "2021-02-09",
-        "new_cases": 9107.0,
-        "new_deaths": 46.0
+        "new_cases": 9112.0,
+        "new_deaths": 64.0
       },
       {
         "date": "2021-02-10",
-        "new_cases": 10243.0,
-        "new_deaths": 36.0
+        "new_cases": 10254.0,
+        "new_deaths": 44.0
       },
       {
         "date": "2021-02-11",
-        "new_cases": 9305.0,
-        "new_deaths": 30.0
+        "new_cases": 9316.0,
+        "new_deaths": 40.0
       },
       {
         "date": "2021-02-12",
-        "new_cases": 8277.0,
-        "new_deaths": 17.0
+        "new_cases": 8407.0,
+        "new_deaths": 27.0
       },
       {
         "date": "2021-02-13",
-        "new_cases": 5325.0,
-        "new_deaths": 5.0
+        "new_cases": 5544.0,
+        "new_deaths": 13.0
       },
       {
         "date": "2021-02-14",
-        "new_cases": 2568.0,
-        "new_deaths": 3.0
+        "new_cases": 3649.0,
+        "new_deaths": 5.0
+      },
+      {
+        "date": "2021-02-15",
+        "new_cases": 2512.0,
+        "new_deaths": 5.0
       }
     ]
   }
