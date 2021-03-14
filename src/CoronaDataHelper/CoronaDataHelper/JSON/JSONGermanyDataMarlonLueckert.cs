@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using DocumentFormat.OpenXml.Wordprocessing;
 using Newtonsoft.Json;
 
@@ -42,7 +43,9 @@ namespace CoronaDataHelper.JSON {
 			JSONCountry oJSONCountry = new JSONCountry();
 			oJSONCountry.location = "Germany";
 			oJSONCountry.data = new List<JSONDailyData>();
+			Debug.WriteLine("number items:"+ oJSONStateDataMarlonLueckertCases?.data?.Count);
 			foreach (var item in oJSONStateDataMarlonLueckertCases.data) {
+				Debug.WriteLine(item.ToString());
 				oJSONCountry.data.Add(item.convert());
 			}
 			return oJSONCountry;

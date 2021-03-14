@@ -106,6 +106,10 @@ namespace CoronaDataHelper.JSON {
 			oJSONDailyData.date = date.ToString("yyyy-MM-dd");
 			return oJSONDailyData;
 		}
+
+		public override string ToString() {
+			return JsonConvert.SerializeObject(this);
+		}
 	}
 	public class Meta {
 		public string source { get; set; }
