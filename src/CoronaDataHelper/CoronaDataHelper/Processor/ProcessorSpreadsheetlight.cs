@@ -20,7 +20,7 @@ namespace CoronaDataHelper.Processor {
 		}; 
 		private static readonly Dictionary<string, string> m_oDictCellToCountryName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Italy"},{"C1","Spain"},{"D1","USA"},{"E1","Germany"},{"F1","France"},{"G1","Iran"},
-			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"}
+			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"},{"O1","Israel"},{"P1","Austria"}
 		};
 
 		private static readonly Dictionary<string, string> m_oDictCellToProvider = new Dictionary<string, string>() {
@@ -153,6 +153,7 @@ namespace CoronaDataHelper.Processor {
 			setData(sl, oJSONCoronaVirusData.IRL, "M", eDataType);
 			setData(sl, oJSONCoronaVirusData.CAN, "N", eDataType);
 			setData(sl, oJSONCoronaVirusData.ISR, "O", eDataType);
+			setData(sl, oJSONCoronaVirusData.AUT, "P", eDataType);
 			Console.WriteLine("save Excel " + strFileNameExcelx);
 
 			sl.Save();
