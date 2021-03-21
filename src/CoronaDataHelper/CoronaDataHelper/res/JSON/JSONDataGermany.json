@@ -2171,6 +2171,13 @@
         "new_cases": 499.0,
         "new_deaths": 11.0,
         "total_deaths": 3231.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 82946.0,
+        "new_cases": 434.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3233.0
       }
     ]
   },
@@ -4346,6 +4353,13 @@
         "new_cases": 894.0,
         "new_deaths": 18.0,
         "total_deaths": 2985.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 138220.0,
+        "new_cases": 286.0,
+        "new_deaths": 6.0,
+        "total_deaths": 2991.0
       }
     ]
   },
@@ -6521,6 +6535,13 @@
         "new_cases": 1930.0,
         "new_deaths": 8.0,
         "total_deaths": 8518.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 343165.0,
+        "new_cases": 2179.0,
+        "new_deaths": 8.0,
+        "total_deaths": 8526.0
       }
     ]
   },
@@ -8696,6 +8717,13 @@
         "new_cases": 2328.0,
         "new_deaths": 29.0,
         "total_deaths": 12968.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 472427.0,
+        "new_cases": 2205.0,
+        "new_deaths": 5.0,
+        "total_deaths": 12973.0
       }
     ]
   },
@@ -10871,6 +10899,13 @@
         "new_cases": 107.0,
         "new_deaths": 0.0,
         "total_deaths": 391.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 19635.0,
+        "new_cases": 109.0,
+        "new_deaths": 1.0,
+        "total_deaths": 392.0
       }
     ]
   },
@@ -13046,6 +13081,13 @@
         "new_cases": 1449.0,
         "new_deaths": 23.0,
         "total_deaths": 6142.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 205734.0,
+        "new_cases": 1021.0,
+        "new_deaths": 3.0,
+        "total_deaths": 6145.0
       }
     ]
   },
@@ -15221,6 +15263,13 @@
         "new_cases": 400.0,
         "new_deaths": 1.0,
         "total_deaths": 1343.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 57002.0,
+        "new_cases": 336.0,
+        "new_deaths": 5.0,
+        "total_deaths": 1348.0
       }
     ]
   },
@@ -17396,6 +17445,13 @@
         "new_cases": 230.0,
         "new_deaths": 2.0,
         "total_deaths": 825.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 27943.0,
+        "new_cases": 230.0,
+        "new_deaths": 3.0,
+        "total_deaths": 828.0
       }
     ]
   },
@@ -19571,6 +19627,13 @@
         "new_cases": 1497.0,
         "new_deaths": 15.0,
         "total_deaths": 4705.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 183678.0,
+        "new_cases": 1145.0,
+        "new_deaths": 17.0,
+        "total_deaths": 4722.0
       }
     ]
   },
@@ -21746,6 +21809,13 @@
         "new_cases": 3143.0,
         "new_deaths": 34.0,
         "total_deaths": 13872.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 577480.0,
+        "new_cases": 2917.0,
+        "new_deaths": 14.0,
+        "total_deaths": 13886.0
       }
     ]
   },
@@ -23920,6 +23990,13 @@
         "total_cases": 109311.0,
         "new_cases": 621.0,
         "new_deaths": 11.0,
+        "total_deaths": 3254.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 109647.0,
+        "new_cases": 336.0,
+        "new_deaths": 0.0,
         "total_deaths": 3254.0
       }
     ]
@@ -26096,6 +26173,13 @@
         "new_cases": 277.0,
         "new_deaths": 5.0,
         "total_deaths": 1403.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 46969.0,
+        "new_cases": 306.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1404.0
       }
     ]
   },
@@ -28270,6 +28354,13 @@
         "total_cases": 30590.0,
         "new_cases": 77.0,
         "new_deaths": 2.0,
+        "total_deaths": 929.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 30720.0,
+        "new_cases": 130.0,
+        "new_deaths": 0.0,
         "total_deaths": 929.0
       }
     ]
@@ -30446,6 +30537,13 @@
         "new_cases": 1245.0,
         "new_deaths": 12.0,
         "total_deaths": 8198.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 209179.0,
+        "new_cases": 1007.0,
+        "new_deaths": 22.0,
+        "total_deaths": 8220.0
       }
     ]
   },
@@ -32621,6 +32719,13 @@
         "new_cases": 542.0,
         "new_deaths": 8.0,
         "total_deaths": 2656.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 67762.0,
+        "new_cases": 346.0,
+        "new_deaths": 4.0,
+        "total_deaths": 2660.0
       }
     ]
   },
@@ -34796,6 +34901,13 @@
         "new_cases": 867.0,
         "new_deaths": 27.0,
         "total_deaths": 3188.0
+      },
+      {
+        "date": "2021-03-20",
+        "total_cases": 87286.0,
+        "new_cases": 698.0,
+        "new_deaths": 7.0,
+        "total_deaths": 3195.0
       }
     ]
   }
