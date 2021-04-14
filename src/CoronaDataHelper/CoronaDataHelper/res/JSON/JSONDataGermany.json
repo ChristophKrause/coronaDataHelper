@@ -2332,6 +2332,13 @@
         "new_cases": 318.0,
         "new_deaths": 3.0,
         "total_deaths": 3373.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 93523.0,
+        "new_cases": 178.0,
+        "new_deaths": 28.0,
+        "total_deaths": 3401.0
       }
     ]
   },
@@ -4668,6 +4675,13 @@
         "new_cases": 493.0,
         "new_deaths": 0.0,
         "total_deaths": 3123.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 154002.0,
+        "new_cases": 539.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3127.0
       }
     ]
   },
@@ -7004,6 +7018,13 @@
         "new_cases": 1547.0,
         "new_deaths": 14.0,
         "total_deaths": 8928.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 389448.0,
+        "new_cases": 1182.0,
+        "new_deaths": 18.0,
+        "total_deaths": 8946.0
       }
     ]
   },
@@ -9340,6 +9361,13 @@
         "new_cases": 3295.0,
         "new_deaths": 23.0,
         "total_deaths": 13515.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 532742.0,
+        "new_cases": 1878.0,
+        "new_deaths": 48.0,
+        "total_deaths": 13563.0
       }
     ]
   },
@@ -11676,6 +11704,13 @@
         "new_cases": 104.0,
         "new_deaths": 0.0,
         "total_deaths": 421.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 22482.0,
+        "new_cases": 96.0,
+        "new_deaths": 4.0,
+        "total_deaths": 425.0
       }
     ]
   },
@@ -14012,6 +14047,13 @@
         "new_cases": 628.0,
         "new_deaths": 7.0,
         "total_deaths": 6488.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 234519.0,
+        "new_cases": 707.0,
+        "new_deaths": 33.0,
+        "total_deaths": 6521.0
       }
     ]
   },
@@ -16347,6 +16389,13 @@
         "total_cases": 65617.0,
         "new_cases": 340.0,
         "new_deaths": 1.0,
+        "total_deaths": 1412.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 65926.0,
+        "new_cases": 309.0,
+        "new_deaths": 0.0,
         "total_deaths": 1412.0
       }
     ]
@@ -18684,6 +18733,13 @@
         "new_cases": 180.0,
         "new_deaths": 4.0,
         "total_deaths": 907.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 34023.0,
+        "new_cases": 172.0,
+        "new_deaths": 7.0,
+        "total_deaths": 914.0
       }
     ]
   },
@@ -21020,6 +21076,13 @@
         "new_cases": 1011.0,
         "new_deaths": 4.0,
         "total_deaths": 5019.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 212178.0,
+        "new_cases": 656.0,
+        "new_deaths": 18.0,
+        "total_deaths": 5037.0
       }
     ]
   },
@@ -23356,6 +23419,13 @@
         "new_cases": 2386.0,
         "new_deaths": 13.0,
         "total_deaths": 14587.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 652744.0,
+        "new_cases": 2803.0,
+        "new_deaths": 68.0,
+        "total_deaths": 14655.0
       }
     ]
   },
@@ -25692,6 +25762,13 @@
         "new_cases": 727.0,
         "new_deaths": 4.0,
         "total_deaths": 3398.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 124745.0,
+        "new_cases": 632.0,
+        "new_deaths": 7.0,
+        "total_deaths": 3405.0
       }
     ]
   },
@@ -28028,6 +28105,13 @@
         "new_cases": 149.0,
         "new_deaths": 1.0,
         "total_deaths": 1461.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 53332.0,
+        "new_cases": 197.0,
+        "new_deaths": 5.0,
+        "total_deaths": 1466.0
       }
     ]
   },
@@ -30364,6 +30448,13 @@
         "new_cases": 66.0,
         "new_deaths": 0.0,
         "total_deaths": 947.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 33661.0,
+        "new_cases": 47.0,
+        "new_deaths": 3.0,
+        "total_deaths": 950.0
       }
     ]
   },
@@ -32700,6 +32791,13 @@
         "new_cases": 1039.0,
         "new_deaths": 3.0,
         "total_deaths": 8558.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 236520.0,
+        "new_cases": 785.0,
+        "new_deaths": 15.0,
+        "total_deaths": 8573.0
       }
     ]
   },
@@ -35036,6 +35134,13 @@
         "new_cases": 528.0,
         "new_deaths": 3.0,
         "total_deaths": 2862.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 79710.0,
+        "new_cases": 281.0,
+        "new_deaths": 15.0,
+        "total_deaths": 2877.0
       }
     ]
   },
@@ -37372,6 +37477,13 @@
         "new_cases": 444.0,
         "new_deaths": 18.0,
         "total_deaths": 3501.0
+      },
+      {
+        "date": "2021-04-12",
+        "total_cases": 103095.0,
+        "new_cases": 392.0,
+        "new_deaths": 23.0,
+        "total_deaths": 3524.0
       }
     ]
   }
