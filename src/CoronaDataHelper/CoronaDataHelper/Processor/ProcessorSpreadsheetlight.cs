@@ -3,7 +3,6 @@ using CoronaDataHelper.JSON;
 using SpreadsheetLight;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using static CoronaDataHelper.Processor.ProviderDataSource;
 
@@ -11,26 +10,30 @@ namespace CoronaDataHelper.Processor {
 
 	internal class ProcessorSpreadsheetlight : IDataProcessor {
 
-		private static  readonly Dictionary<string, string> m_oDictCellToStateName = new Dictionary<string, string>() {
+		private static readonly Dictionary<string, string> m_oDictCellToStateName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Brandenburg"},{"C1","Berlin"},{"D1","Baden-Wurttemberg"},{"E1","Bayern"},{"F1","Bremen"},{"G1","Hessen"},
 			{"H1","Hamburg"},{"I1","Mecklenburg-Vorpommern"},{"J1","Niedersachsen"},{"K1","Nordrhein-Westfalen"},{"L1","Rheinland-Pfalz"},{"M1","Schleswig-Holstein"},{"N1","Saarland"},
 			{"O1","Sachsen"},
 			{"P1","Sachsen-Anhalt"},
 			{"Q1","Thuringen"}
-		}; 
+		};
+
 		private static readonly Dictionary<string, string> m_oDictCellToCountryName = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","Italy"},{"C1","Spain"},{"D1","USA"},{"E1","Germany"},{"F1","France"},{"G1","Iran"},
-			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"},{"O1","Israel"},{"P1","Austria"}
+			{"H1","UK"},{"I1","Netherlands"},{"J1","Belgium"},{"K1","Sweden"},{"L1","Brazil"},{"M1","Ireland"},{"N1","Canada"},{"O1","Israel"},
+			{"P1","Austria"},
+			{"Q1","India"},
 		};
 
 		private static readonly Dictionary<string, string> m_oDictCellToProvider = new Dictionary<string, string>() {
 			{"A1","Date"},{"B1","RKI"},{"C1","JHU"},{"D1","Worldometer"}
 		};
+
 		internal enum EDataType {
 			death,
 			infected
 		}
-	
+
 		public bool process(string strFilename, object oJSONData) {
 			if (!File.Exists(strFilename)) {
 				throw new Exception("Can not find ExcelFile:" + strFilename);
@@ -61,6 +64,7 @@ namespace CoronaDataHelper.Processor {
 				return false;
 			}
 		}
+
 		private static void processXLSX(string strFileNameExcelx, Dictionary<EDataProvider, JSONCoronaVirusData> dictoJSONCoronaVirusData, EDataType eDataType) {
 			//XLSX Layout:
 			//Date	RKI	JHU	Worldometer
@@ -86,7 +90,7 @@ namespace CoronaDataHelper.Processor {
 				sl: sl,
 				oJSONCountry: dictoJSONCoronaVirusData[EDataProvider.Worldometer].DEU,
 				strColumn: "D",
-				eRow: eDataType);		
+				eRow: eDataType);
 			Console.WriteLine("save Excel " + strFileNameExcelx);
 
 			sl.Save();
@@ -154,18 +158,18 @@ namespace CoronaDataHelper.Processor {
 			setData(sl, oJSONCoronaVirusData.CAN, "N", eDataType);
 			setData(sl, oJSONCoronaVirusData.ISR, "O", eDataType);
 			setData(sl, oJSONCoronaVirusData.AUT, "P", eDataType);
+			setData(sl, oJSONCoronaVirusData.IND, "Q", eDataType);
 			Console.WriteLine("save Excel " + strFileNameExcelx);
 
 			sl.Save();
 		}
 
 		private static void setData(SLDocument sl, JSONCountry oJSONCountry, String strColumn, EDataType eRow) {
-			Console.WriteLine("column: " + strColumn+" setData: " + oJSONCountry.location);
+			Console.WriteLine("column: " + strColumn + " setData: " + oJSONCountry.location);
 
 			var oData = oJSONCountry.data;
 			for (int i = 0; i < oData.Count; i++) {
-			
-			//	Debug.WriteLine("Date: " + oData[i].date + " "  + oJSONCountry.location);
+				//	Debug.WriteLine("Date: " + oData[i].date + " "  + oJSONCountry.location);
 
 				float? fValue = oData[i].new_cases;
 				if (eRow == EDataType.death) {
@@ -177,10 +181,9 @@ namespace CoronaDataHelper.Processor {
 					iValue = (int)fValue.Value;
 				}
 				int iRow = getRowIndexForDate(oData[i].date);
-			//	Debug.WriteLine("Row for Date: "+ oData[0].date+" "+ iRow + " "+ oJSONCountry.location);
-				
-				string strrowIndex = strColumn + "" + iRow;
+				//	Debug.WriteLine("Row for Date: "+ oData[0].date+" "+ iRow + " "+ oJSONCountry.location);
 
+				string strrowIndex = strColumn + "" + iRow;
 
 				//if (strColumn == "E") {
 				//	Debug.WriteLine(strrowIndex+" "+ iValue + "    oData[0].date:" + oData[i].date);
@@ -190,15 +193,13 @@ namespace CoronaDataHelper.Processor {
 			}
 		}
 
-
-
 		private static int getRowIndexForDate(string strDateTime) {
 			string[] arstrparts = strDateTime.Split('-');
 			int iYear = Int16.Parse(arstrparts[0]);
 			int iMonth = Int16.Parse(arstrparts[1]);
 			int iDay = Int16.Parse(arstrparts[2]);
-			if (iMonth > 12 || iMonth<1) {
-				throw  new Exception("Invalid month:"+ iMonth);
+			if (iMonth > 12 || iMonth < 1) {
+				throw new Exception("Invalid month:" + iMonth);
 			}
 			if (iDay > 31 || iDay < 1) {
 				throw new Exception("Invalid day:" + iMonth);
@@ -213,8 +214,8 @@ namespace CoronaDataHelper.Processor {
 			int iDiffDays = Convert.ToInt32((dtCurrent - dtRow2).TotalDays);
 
 			return 2 + iDiffDays;
-
 		}
+
 		private static void validateFile(SLDocument sl, Dictionary<string, string> oDictCellToCountryName) {
 			foreach (var item in oDictCellToCountryName) {
 				var strValue = sl.GetCellValueAsString(item.Key).Trim();

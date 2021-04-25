@@ -1,13 +1,10 @@
 ﻿using CoronaDataHelper.Interface;
 using CoronaDataHelper.JSON;
+using CoronaDataHelper.Scraper;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Collections;
 using System.IO;
-using System.Runtime.ConstrainedExecution;
-using CoronaDataHelper.Scraper;
-
 
 namespace CoronaDataHelper.DataSource {
 
@@ -15,24 +12,25 @@ namespace CoronaDataHelper.DataSource {
 		private const string URLJSONDATASOURCE = "https://www.worldometers.info/coronavirus/country/";
 		private const string FILENAMEJSON = "coronavirus-source-data_worldometer.json";
 
-		JSONCoronaVirusData m_oJSONCoronaVirusData = new JSONCoronaVirusData();
+		private JSONCoronaVirusData m_oJSONCoronaVirusData = new JSONCoronaVirusData();
 
-		List<JSONCountry> m_listCountries = new List<JSONCountry>();
+		private List<JSONCountry> m_listCountries = new List<JSONCountry>();
+
 		internal DataSourceWorldometer() {
-
 		}
+
 		public object process() {
 			prepare();
 			return getJSONData(URLJSONDATASOURCE, FILENAMEJSON);
 		}
 
 		private void prepare() {
-			JSONCountry oJSONCountry =  new JSONCountry();
+			JSONCountry oJSONCountry = new JSONCountry();
 			oJSONCountry.location = "Italy";
 			m_oJSONCoronaVirusData.ITA = oJSONCountry;
 			m_listCountries.Add(oJSONCountry);
 
-			 oJSONCountry = new JSONCountry();
+			oJSONCountry = new JSONCountry();
 			oJSONCountry.location = "Spain";
 			m_oJSONCoronaVirusData.ESP = oJSONCountry;
 			m_listCountries.Add(oJSONCountry);
@@ -101,10 +99,14 @@ namespace CoronaDataHelper.DataSource {
 			oJSONCountry.location = "Austria";
 			m_oJSONCoronaVirusData.AUT = oJSONCountry;
 			m_listCountries.Add(oJSONCountry);
-		}
-	
-		private JSONCoronaVirusData getJSONData(string strjSONURL, string strFileNameJSON) {
 
+			oJSONCountry = new JSONCountry();
+			oJSONCountry.location = "India";
+			m_oJSONCoronaVirusData.IND = oJSONCountry;
+			m_listCountries.Add(oJSONCountry);
+		}
+
+		private JSONCoronaVirusData getJSONData(string strjSONURL, string strFileNameJSON) {
 			if (!string.IsNullOrWhiteSpace(strFileNameJSON) && File.Exists(strFileNameJSON)) {
 				FileInfo oFileInfo = new FileInfo(strFileNameJSON);
 				TimeSpan ts = DateTime.Now - oFileInfo.CreationTime;
@@ -120,10 +122,9 @@ namespace CoronaDataHelper.DataSource {
 			if (File.Exists(strFileNameJSON)) {
 				string strJsonText = File.ReadAllText(strFileNameJSON);
 				return JsonConvert.DeserializeObject<JSONCoronaVirusData>(strJsonText);
-
 			}
 			foreach (var item in m_listCountries) {
-				var data = getJSON( item);
+				var data = getJSON(item);
 				item.data = data;
 			}
 
@@ -138,9 +139,9 @@ namespace CoronaDataHelper.DataSource {
 		private List<JSONDailyData> getJSON(JSONCountry oJSONCountry) {
 			ScraperWorldometer oScraperWorldometer = new ScraperWorldometer();
 			string strUri = URLJSONDATASOURCE + oJSONCountry.location;
-			Console.WriteLine("Getting Daily Cases for "+ oJSONCountry.location+ " "+ strUri);
+			Console.WriteLine("Getting Daily Cases for " + oJSONCountry.location + " " + strUri);
 			string strNeedle = "name: 'Daily Cases',";
-			Dictionary<DateTime, int> dictDateToInfected= oScraperWorldometer.processUrl(strUri, strNeedle);
+			Dictionary<DateTime, int> dictDateToInfected = oScraperWorldometer.processUrl(strUri, strNeedle);
 			Console.WriteLine("Getting Death for " + oJSONCountry.location + " " + strUri);
 			strNeedle = "name: 'Daily Deaths',";
 			Dictionary<DateTime, int> dictDateToDeath = oScraperWorldometer.processUrl(strUri, strNeedle);
