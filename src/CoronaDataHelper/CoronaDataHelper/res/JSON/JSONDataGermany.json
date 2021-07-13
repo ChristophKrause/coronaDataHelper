@@ -2689,6 +2689,293 @@
         "new_cases": 103.0,
         "new_deaths": 5.0,
         "total_deaths": 3735.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 108417.0,
+        "new_cases": 81.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3736.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 108462.0,
+        "new_cases": 45.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3742.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 108510.0,
+        "new_cases": 48.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3743.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 108534.0,
+        "new_cases": 24.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3743.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 108560.0,
+        "new_cases": 26.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3744.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 108575.0,
+        "new_cases": 15.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3746.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 108616.0,
+        "new_cases": 41.0,
+        "new_deaths": 5.0,
+        "total_deaths": 3751.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 108630.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3751.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 108653.0,
+        "new_cases": 23.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3755.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 108613.0,
+        "new_cases": -40.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3755.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 108641.0,
+        "new_cases": 28.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3755.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 108654.0,
+        "new_cases": 13.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3756.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 108622.0,
+        "new_cases": -32.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3757.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 108605.0,
+        "new_cases": -17.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3760.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 108608.0,
+        "new_cases": 3.0,
+        "new_deaths": 5.0,
+        "total_deaths": 3765.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 108615.0,
+        "new_cases": 7.0,
+        "new_deaths": 21.0,
+        "total_deaths": 3786.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 108623.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3786.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 108637.0,
+        "new_cases": 14.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3787.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 108640.0,
+        "new_cases": 3.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3787.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 108642.0,
+        "new_cases": 2.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3788.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 108643.0,
+        "new_cases": 1.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3789.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 108643.0,
+        "new_cases": 0.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3790.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 108649.0,
+        "new_cases": 6.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3792.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 108665.0,
+        "new_cases": 16.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3794.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 108672.0,
+        "new_cases": 7.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3794.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 108675.0,
+        "new_cases": 3.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3794.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 108677.0,
+        "new_cases": 2.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3800.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 108684.0,
+        "new_cases": 7.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3803.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 108702.0,
+        "new_cases": 18.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3806.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 108706.0,
+        "new_cases": 4.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3807.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 108712.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3807.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 108718.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3807.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 108718.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3807.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 108726.0,
+        "new_cases": 8.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3810.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 108745.0,
+        "new_cases": 19.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3811.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 108758.0,
+        "new_cases": 13.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3811.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 108776.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3811.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 108790.0,
+        "new_cases": 14.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3812.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 108808.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3812.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 108813.0,
+        "new_cases": 5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3812.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 108829.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3812.0
       }
     ]
   },
@@ -5382,6 +5669,293 @@
         "new_cases": 202.0,
         "new_deaths": 13.0,
         "total_deaths": 3498.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 178772.0,
+        "new_cases": 210.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3499.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 178932.0,
+        "new_cases": 160.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3502.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 179089.0,
+        "new_cases": 157.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3506.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 179141.0,
+        "new_cases": 52.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3506.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 179136.0,
+        "new_cases": -5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3506.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 179237.0,
+        "new_cases": 101.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3510.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 179343.0,
+        "new_cases": 106.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3512.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 179467.0,
+        "new_cases": 124.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3513.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 179553.0,
+        "new_cases": 86.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3517.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 179654.0,
+        "new_cases": 101.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3518.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 179679.0,
+        "new_cases": 25.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3518.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 179693.0,
+        "new_cases": 14.0,
+        "new_deaths": -1.0,
+        "total_deaths": 3517.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 179747.0,
+        "new_cases": 54.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3520.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 179791.0,
+        "new_cases": 44.0,
+        "new_deaths": 9.0,
+        "total_deaths": 3529.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 179823.0,
+        "new_cases": 32.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3535.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 179858.0,
+        "new_cases": 35.0,
+        "new_deaths": 9.0,
+        "total_deaths": 3544.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 179863.0,
+        "new_cases": 5.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3545.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 179879.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3545.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 179889.0,
+        "new_cases": 10.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3545.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 179921.0,
+        "new_cases": 32.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3545.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 179990.0,
+        "new_cases": 69.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3547.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 180026.0,
+        "new_cases": 36.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3548.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 180077.0,
+        "new_cases": 51.0,
+        "new_deaths": 5.0,
+        "total_deaths": 3553.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 180124.0,
+        "new_cases": 47.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3556.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 180116.0,
+        "new_cases": -8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3556.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 180121.0,
+        "new_cases": 5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3556.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 180141.0,
+        "new_cases": 20.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3558.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 180173.0,
+        "new_cases": 32.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3559.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 180209.0,
+        "new_cases": 36.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3560.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 180236.0,
+        "new_cases": 27.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3560.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 180264.0,
+        "new_cases": 28.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3561.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 180272.0,
+        "new_cases": 8.0,
+        "new_deaths": -2.0,
+        "total_deaths": 3559.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 180275.0,
+        "new_cases": 3.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3559.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 180326.0,
+        "new_cases": 51.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3561.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 180381.0,
+        "new_cases": 55.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3562.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 180429.0,
+        "new_cases": 48.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3563.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 180493.0,
+        "new_cases": 64.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3563.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 180543.0,
+        "new_cases": 50.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3564.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 180553.0,
+        "new_cases": 10.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3564.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 180553.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3564.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 180640.0,
+        "new_cases": 87.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3565.0
       }
     ]
   },
@@ -8075,6 +8649,293 @@
         "new_cases": 778.0,
         "new_deaths": 22.0,
         "total_deaths": 9991.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 494341.0,
+        "new_cases": 830.0,
+        "new_deaths": 12.0,
+        "total_deaths": 10003.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 494918.0,
+        "new_cases": 577.0,
+        "new_deaths": 5.0,
+        "total_deaths": 10008.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 495178.0,
+        "new_cases": 260.0,
+        "new_deaths": 6.0,
+        "total_deaths": 10014.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 495601.0,
+        "new_cases": 423.0,
+        "new_deaths": 3.0,
+        "total_deaths": 10017.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 495835.0,
+        "new_cases": 234.0,
+        "new_deaths": 0.0,
+        "total_deaths": 10017.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 495944.0,
+        "new_cases": 109.0,
+        "new_deaths": 13.0,
+        "total_deaths": 10030.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 496615.0,
+        "new_cases": 671.0,
+        "new_deaths": 6.0,
+        "total_deaths": 10036.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 497237.0,
+        "new_cases": 622.0,
+        "new_deaths": 10.0,
+        "total_deaths": 10046.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 497666.0,
+        "new_cases": 429.0,
+        "new_deaths": 14.0,
+        "total_deaths": 10060.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 498053.0,
+        "new_cases": 387.0,
+        "new_deaths": 12.0,
+        "total_deaths": 10072.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 498259.0,
+        "new_cases": 206.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10074.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 498250.0,
+        "new_cases": -9.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10076.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 498590.0,
+        "new_cases": 340.0,
+        "new_deaths": 20.0,
+        "total_deaths": 10096.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 498867.0,
+        "new_cases": 277.0,
+        "new_deaths": 17.0,
+        "total_deaths": 10113.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 499158.0,
+        "new_cases": 291.0,
+        "new_deaths": 23.0,
+        "total_deaths": 10136.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 499333.0,
+        "new_cases": 175.0,
+        "new_deaths": 9.0,
+        "total_deaths": 10145.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 499480.0,
+        "new_cases": 147.0,
+        "new_deaths": 12.0,
+        "total_deaths": 10157.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 499633.0,
+        "new_cases": 153.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10159.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 499703.0,
+        "new_cases": 70.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10161.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 499767.0,
+        "new_cases": 64.0,
+        "new_deaths": 9.0,
+        "total_deaths": 10170.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 499927.0,
+        "new_cases": 160.0,
+        "new_deaths": 5.0,
+        "total_deaths": 10175.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 500237.0,
+        "new_cases": 310.0,
+        "new_deaths": 10.0,
+        "total_deaths": 10185.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 500349.0,
+        "new_cases": 112.0,
+        "new_deaths": 10.0,
+        "total_deaths": 10195.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 500500.0,
+        "new_cases": 151.0,
+        "new_deaths": 26.0,
+        "total_deaths": 10221.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 500593.0,
+        "new_cases": 93.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10222.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 500625.0,
+        "new_cases": 32.0,
+        "new_deaths": 4.0,
+        "total_deaths": 10226.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 500675.0,
+        "new_cases": 50.0,
+        "new_deaths": 9.0,
+        "total_deaths": 10235.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 500818.0,
+        "new_cases": 143.0,
+        "new_deaths": 8.0,
+        "total_deaths": 10243.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 500954.0,
+        "new_cases": 136.0,
+        "new_deaths": 18.0,
+        "total_deaths": 10261.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 501039.0,
+        "new_cases": 85.0,
+        "new_deaths": 11.0,
+        "total_deaths": 10272.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 501130.0,
+        "new_cases": 91.0,
+        "new_deaths": 4.0,
+        "total_deaths": 10276.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 501235.0,
+        "new_cases": 105.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10278.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 501259.0,
+        "new_cases": 24.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10279.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 501276.0,
+        "new_cases": 17.0,
+        "new_deaths": 3.0,
+        "total_deaths": 10282.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 501405.0,
+        "new_cases": 129.0,
+        "new_deaths": 4.0,
+        "total_deaths": 10286.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 501528.0,
+        "new_cases": 123.0,
+        "new_deaths": 6.0,
+        "total_deaths": 10292.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 501623.0,
+        "new_cases": 95.0,
+        "new_deaths": 20.0,
+        "total_deaths": 10312.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 501738.0,
+        "new_cases": 115.0,
+        "new_deaths": 5.0,
+        "total_deaths": 10317.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 501818.0,
+        "new_cases": 80.0,
+        "new_deaths": 0.0,
+        "total_deaths": 10317.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 501848.0,
+        "new_cases": 30.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10318.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 501891.0,
+        "new_cases": 43.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10320.0
       }
     ]
   },
@@ -10768,6 +11629,293 @@
         "new_cases": 780.0,
         "new_deaths": 10.0,
         "total_deaths": 14965.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 640963.0,
+        "new_cases": 706.0,
+        "new_deaths": 26.0,
+        "total_deaths": 14991.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 641342.0,
+        "new_cases": 379.0,
+        "new_deaths": 6.0,
+        "total_deaths": 14997.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 641704.0,
+        "new_cases": 362.0,
+        "new_deaths": 10.0,
+        "total_deaths": 15007.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 642209.0,
+        "new_cases": 505.0,
+        "new_deaths": 8.0,
+        "total_deaths": 15015.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 642508.0,
+        "new_cases": 299.0,
+        "new_deaths": 2.0,
+        "total_deaths": 15017.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 642704.0,
+        "new_cases": 196.0,
+        "new_deaths": 20.0,
+        "total_deaths": 15037.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 643322.0,
+        "new_cases": 618.0,
+        "new_deaths": 25.0,
+        "total_deaths": 15062.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 643966.0,
+        "new_cases": 644.0,
+        "new_deaths": 9.0,
+        "total_deaths": 15071.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 644401.0,
+        "new_cases": 435.0,
+        "new_deaths": 10.0,
+        "total_deaths": 15081.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 644734.0,
+        "new_cases": 333.0,
+        "new_deaths": 16.0,
+        "total_deaths": 15097.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 645009.0,
+        "new_cases": 275.0,
+        "new_deaths": 4.0,
+        "total_deaths": 15101.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 645161.0,
+        "new_cases": 152.0,
+        "new_deaths": -1.0,
+        "total_deaths": 15100.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 645288.0,
+        "new_cases": 127.0,
+        "new_deaths": 14.0,
+        "total_deaths": 15114.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 645591.0,
+        "new_cases": 303.0,
+        "new_deaths": 23.0,
+        "total_deaths": 15137.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 645836.0,
+        "new_cases": 245.0,
+        "new_deaths": 15.0,
+        "total_deaths": 15152.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 646038.0,
+        "new_cases": 202.0,
+        "new_deaths": 11.0,
+        "total_deaths": 15163.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 646268.0,
+        "new_cases": 230.0,
+        "new_deaths": 23.0,
+        "total_deaths": 15186.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 646414.0,
+        "new_cases": 146.0,
+        "new_deaths": 1.0,
+        "total_deaths": 15187.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 646499.0,
+        "new_cases": 85.0,
+        "new_deaths": 1.0,
+        "total_deaths": 15188.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 646590.0,
+        "new_cases": 91.0,
+        "new_deaths": 14.0,
+        "total_deaths": 15202.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 646880.0,
+        "new_cases": 290.0,
+        "new_deaths": 11.0,
+        "total_deaths": 15213.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 647006.0,
+        "new_cases": 126.0,
+        "new_deaths": 16.0,
+        "total_deaths": 15229.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 647125.0,
+        "new_cases": 119.0,
+        "new_deaths": 6.0,
+        "total_deaths": 15235.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 647233.0,
+        "new_cases": 108.0,
+        "new_deaths": 6.0,
+        "total_deaths": 15241.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 647230.0,
+        "new_cases": -3.0,
+        "new_deaths": 1.0,
+        "total_deaths": 15242.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 647295.0,
+        "new_cases": 65.0,
+        "new_deaths": 2.0,
+        "total_deaths": 15244.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 647371.0,
+        "new_cases": 76.0,
+        "new_deaths": 6.0,
+        "total_deaths": 15250.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 647527.0,
+        "new_cases": 156.0,
+        "new_deaths": 8.0,
+        "total_deaths": 15258.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 647626.0,
+        "new_cases": 99.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15263.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 647750.0,
+        "new_cases": 124.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15268.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 647843.0,
+        "new_cases": 93.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15273.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 647935.0,
+        "new_cases": 92.0,
+        "new_deaths": 0.0,
+        "total_deaths": 15273.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 647993.0,
+        "new_cases": 58.0,
+        "new_deaths": 0.0,
+        "total_deaths": 15273.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 648060.0,
+        "new_cases": 67.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15278.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 648233.0,
+        "new_cases": 173.0,
+        "new_deaths": 2.0,
+        "total_deaths": 15280.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 648419.0,
+        "new_cases": 186.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15285.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 648581.0,
+        "new_cases": 162.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15290.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 648729.0,
+        "new_cases": 148.0,
+        "new_deaths": 5.0,
+        "total_deaths": 15295.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 648888.0,
+        "new_cases": 159.0,
+        "new_deaths": 0.0,
+        "total_deaths": 15295.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 648971.0,
+        "new_cases": 83.0,
+        "new_deaths": 1.0,
+        "total_deaths": 15296.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 649049.0,
+        "new_cases": 78.0,
+        "new_deaths": 3.0,
+        "total_deaths": 15299.0
       }
     ]
   },
@@ -13461,6 +14609,293 @@
         "new_cases": 47.0,
         "new_deaths": 0.0,
         "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 27159.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 27195.0,
+        "new_cases": 36.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 27219.0,
+        "new_cases": 24.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 27238.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 27247.0,
+        "new_cases": 9.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 27247.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 27280.0,
+        "new_cases": 33.0,
+        "new_deaths": 0.0,
+        "total_deaths": 475.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 27294.0,
+        "new_cases": 14.0,
+        "new_deaths": 2.0,
+        "total_deaths": 477.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 27315.0,
+        "new_cases": 21.0,
+        "new_deaths": 0.0,
+        "total_deaths": 477.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 27330.0,
+        "new_cases": 15.0,
+        "new_deaths": 1.0,
+        "total_deaths": 478.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 27341.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 478.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 27345.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 478.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 27346.0,
+        "new_cases": 1.0,
+        "new_deaths": 2.0,
+        "total_deaths": 480.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 27355.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 481.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 27363.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 481.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 27370.0,
+        "new_cases": 7.0,
+        "new_deaths": 1.0,
+        "total_deaths": 482.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 27376.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 482.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 27382.0,
+        "new_cases": 6.0,
+        "new_deaths": 1.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 27386.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 27392.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 27406.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 27414.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 27423.0,
+        "new_cases": 9.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 27429.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 27425.0,
+        "new_cases": -4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 483.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 27426.0,
+        "new_cases": 1.0,
+        "new_deaths": 1.0,
+        "total_deaths": 484.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 27426.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 484.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 27440.0,
+        "new_cases": 14.0,
+        "new_deaths": 1.0,
+        "total_deaths": 485.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 27449.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 486.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 27458.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 487.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 27467.0,
+        "new_cases": 9.0,
+        "new_deaths": 0.0,
+        "total_deaths": 487.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 27472.0,
+        "new_cases": 5.0,
+        "new_deaths": 1.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 27476.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 27482.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 27500.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 27501.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 27527.0,
+        "new_cases": 26.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 27533.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 27542.0,
+        "new_cases": 9.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 27549.0,
+        "new_cases": 7.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 27551.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 488.0
       }
     ]
   },
@@ -16154,6 +17589,293 @@
         "new_cases": 440.0,
         "new_deaths": 29.0,
         "total_deaths": 7372.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 287588.0,
+        "new_cases": 447.0,
+        "new_deaths": 10.0,
+        "total_deaths": 7382.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 287892.0,
+        "new_cases": 304.0,
+        "new_deaths": 4.0,
+        "total_deaths": 7386.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 288023.0,
+        "new_cases": 131.0,
+        "new_deaths": 7.0,
+        "total_deaths": 7393.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 288258.0,
+        "new_cases": 235.0,
+        "new_deaths": 4.0,
+        "total_deaths": 7397.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 288323.0,
+        "new_cases": 65.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7400.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 288337.0,
+        "new_cases": 14.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7402.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 288624.0,
+        "new_cases": 287.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7405.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 288915.0,
+        "new_cases": 291.0,
+        "new_deaths": 7.0,
+        "total_deaths": 7412.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 289168.0,
+        "new_cases": 253.0,
+        "new_deaths": 7.0,
+        "total_deaths": 7419.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 289345.0,
+        "new_cases": 177.0,
+        "new_deaths": 13.0,
+        "total_deaths": 7432.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 289484.0,
+        "new_cases": 139.0,
+        "new_deaths": 4.0,
+        "total_deaths": 7436.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 289516.0,
+        "new_cases": 32.0,
+        "new_deaths": 0.0,
+        "total_deaths": 7436.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 289564.0,
+        "new_cases": 48.0,
+        "new_deaths": 6.0,
+        "total_deaths": 7442.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 289690.0,
+        "new_cases": 126.0,
+        "new_deaths": 6.0,
+        "total_deaths": 7448.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 289817.0,
+        "new_cases": 127.0,
+        "new_deaths": 12.0,
+        "total_deaths": 7460.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 289930.0,
+        "new_cases": 113.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7462.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 290107.0,
+        "new_cases": 177.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7464.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 290174.0,
+        "new_cases": 67.0,
+        "new_deaths": 4.0,
+        "total_deaths": 7468.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 290208.0,
+        "new_cases": 34.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7470.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 290249.0,
+        "new_cases": 41.0,
+        "new_deaths": 20.0,
+        "total_deaths": 7490.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 290345.0,
+        "new_cases": 96.0,
+        "new_deaths": 4.0,
+        "total_deaths": 7494.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 290469.0,
+        "new_cases": 124.0,
+        "new_deaths": 5.0,
+        "total_deaths": 7499.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 290538.0,
+        "new_cases": 69.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7501.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 290623.0,
+        "new_cases": 85.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7503.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 290688.0,
+        "new_cases": 65.0,
+        "new_deaths": 1.0,
+        "total_deaths": 7504.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 290712.0,
+        "new_cases": 24.0,
+        "new_deaths": 1.0,
+        "total_deaths": 7505.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 290756.0,
+        "new_cases": 44.0,
+        "new_deaths": 7.0,
+        "total_deaths": 7512.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 290848.0,
+        "new_cases": 92.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7515.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 290935.0,
+        "new_cases": 87.0,
+        "new_deaths": 6.0,
+        "total_deaths": 7521.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 290994.0,
+        "new_cases": 59.0,
+        "new_deaths": 17.0,
+        "total_deaths": 7538.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 291117.0,
+        "new_cases": 123.0,
+        "new_deaths": 1.0,
+        "total_deaths": 7539.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 291181.0,
+        "new_cases": 64.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7542.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 291195.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 7542.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 291218.0,
+        "new_cases": 23.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7545.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 291328.0,
+        "new_cases": 110.0,
+        "new_deaths": 1.0,
+        "total_deaths": 7546.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 291440.0,
+        "new_cases": 112.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7549.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 291541.0,
+        "new_cases": 101.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7552.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 291670.0,
+        "new_cases": 129.0,
+        "new_deaths": 3.0,
+        "total_deaths": 7555.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 291761.0,
+        "new_cases": 91.0,
+        "new_deaths": 0.0,
+        "total_deaths": 7555.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 291793.0,
+        "new_cases": 32.0,
+        "new_deaths": 0.0,
+        "total_deaths": 7555.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 291828.0,
+        "new_cases": 35.0,
+        "new_deaths": 2.0,
+        "total_deaths": 7557.0
       }
     ]
   },
@@ -18847,6 +20569,293 @@
         "new_cases": 108.0,
         "new_deaths": 2.0,
         "total_deaths": 1565.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 76387.0,
+        "new_cases": 49.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1566.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 76465.0,
+        "new_cases": 78.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1566.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 76504.0,
+        "new_cases": 39.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1567.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 76577.0,
+        "new_cases": 73.0,
+        "new_deaths": 4.0,
+        "total_deaths": 1571.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 76598.0,
+        "new_cases": 21.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1572.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 76624.0,
+        "new_cases": 26.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1573.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 76677.0,
+        "new_cases": 53.0,
+        "new_deaths": 5.0,
+        "total_deaths": 1578.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 76738.0,
+        "new_cases": 61.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1578.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 76796.0,
+        "new_cases": 58.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1579.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 76829.0,
+        "new_cases": 33.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1580.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 76878.0,
+        "new_cases": 49.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1580.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 76885.0,
+        "new_cases": 7.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1580.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 76925.0,
+        "new_cases": 40.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1580.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 76964.0,
+        "new_cases": 39.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1581.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 77016.0,
+        "new_cases": 52.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1582.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 77037.0,
+        "new_cases": 21.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1585.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 77065.0,
+        "new_cases": 28.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1586.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 77098.0,
+        "new_cases": 33.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1587.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 77122.0,
+        "new_cases": 24.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1587.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 77136.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1587.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 77155.0,
+        "new_cases": 19.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1588.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 77212.0,
+        "new_cases": 57.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1589.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 77236.0,
+        "new_cases": 24.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1589.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 77254.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1589.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 77289.0,
+        "new_cases": 35.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1590.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 77300.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1590.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 77315.0,
+        "new_cases": 15.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1590.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 77342.0,
+        "new_cases": 27.0,
+        "new_deaths": 4.0,
+        "total_deaths": 1594.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 77370.0,
+        "new_cases": 28.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1596.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 77397.0,
+        "new_cases": 27.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 77434.0,
+        "new_cases": 37.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 77456.0,
+        "new_cases": 22.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 77467.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 77478.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 77514.0,
+        "new_cases": 36.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 77544.0,
+        "new_cases": 30.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 77582.0,
+        "new_cases": 38.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1598.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 77611.0,
+        "new_cases": 29.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1599.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 77612.0,
+        "new_cases": 1.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1602.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 77673.0,
+        "new_cases": 61.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1602.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 77692.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1602.0
       }
     ]
   },
@@ -21540,6 +23549,293 @@
         "new_cases": -241.0,
         "new_deaths": 1.0,
         "total_deaths": 1123.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 43934.0,
+        "new_cases": 23.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1124.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 43951.0,
+        "new_cases": 17.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1124.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 43973.0,
+        "new_cases": 22.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1126.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 43981.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1126.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 43992.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1126.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 43999.0,
+        "new_cases": 7.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1129.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 44017.0,
+        "new_cases": 18.0,
+        "new_deaths": 4.0,
+        "total_deaths": 1133.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 44023.0,
+        "new_cases": 6.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1136.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 44047.0,
+        "new_cases": 24.0,
+        "new_deaths": 5.0,
+        "total_deaths": 1141.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 44060.0,
+        "new_cases": 13.0,
+        "new_deaths": 4.0,
+        "total_deaths": 1145.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 44070.0,
+        "new_cases": 10.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1145.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 44071.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1145.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 44079.0,
+        "new_cases": 8.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1146.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 44091.0,
+        "new_cases": 12.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1147.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 44099.0,
+        "new_cases": 8.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1148.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 44099.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1148.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 44098.0,
+        "new_cases": -1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1148.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 44100.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1148.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 44102.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1148.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 44103.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1148.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 44117.0,
+        "new_cases": 14.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1149.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 44122.0,
+        "new_cases": 5.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1150.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 44122.0,
+        "new_cases": 0.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1151.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 44134.0,
+        "new_cases": 12.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1152.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 44136.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1152.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 44138.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1152.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 44139.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1152.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 44149.0,
+        "new_cases": 10.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1154.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 44156.0,
+        "new_cases": 7.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1156.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 44158.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1156.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 44162.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1156.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 44164.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1156.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 44165.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1156.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 44165.0,
+        "new_cases": 0.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1158.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 44164.0,
+        "new_cases": -1.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1161.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 44166.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1161.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 44174.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1161.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 44180.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1161.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 44185.0,
+        "new_cases": 5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1161.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 44186.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1161.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 44187.0,
+        "new_cases": 1.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1163.0
       }
     ]
   },
@@ -24233,6 +26529,293 @@
         "new_cases": 368.0,
         "new_deaths": 9.0,
         "total_deaths": 5631.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 258893.0,
+        "new_cases": 319.0,
+        "new_deaths": 14.0,
+        "total_deaths": 5645.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 259130.0,
+        "new_cases": 237.0,
+        "new_deaths": 7.0,
+        "total_deaths": 5652.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 259283.0,
+        "new_cases": 153.0,
+        "new_deaths": 7.0,
+        "total_deaths": 5659.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 259406.0,
+        "new_cases": 123.0,
+        "new_deaths": 4.0,
+        "total_deaths": 5663.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 259459.0,
+        "new_cases": 53.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5663.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 259544.0,
+        "new_cases": 85.0,
+        "new_deaths": 14.0,
+        "total_deaths": 5677.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 259743.0,
+        "new_cases": 199.0,
+        "new_deaths": 9.0,
+        "total_deaths": 5686.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 259891.0,
+        "new_cases": 148.0,
+        "new_deaths": 7.0,
+        "total_deaths": 5693.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 260045.0,
+        "new_cases": 154.0,
+        "new_deaths": 1.0,
+        "total_deaths": 5694.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 260120.0,
+        "new_cases": 75.0,
+        "new_deaths": 3.0,
+        "total_deaths": 5697.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 260206.0,
+        "new_cases": 86.0,
+        "new_deaths": 2.0,
+        "total_deaths": 5699.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 260235.0,
+        "new_cases": 29.0,
+        "new_deaths": 2.0,
+        "total_deaths": 5701.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 260246.0,
+        "new_cases": 11.0,
+        "new_deaths": 5.0,
+        "total_deaths": 5706.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 260357.0,
+        "new_cases": 111.0,
+        "new_deaths": 3.0,
+        "total_deaths": 5709.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 260448.0,
+        "new_cases": 91.0,
+        "new_deaths": 12.0,
+        "total_deaths": 5721.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 260531.0,
+        "new_cases": 83.0,
+        "new_deaths": 3.0,
+        "total_deaths": 5724.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 260583.0,
+        "new_cases": 52.0,
+        "new_deaths": 2.0,
+        "total_deaths": 5726.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 260637.0,
+        "new_cases": 54.0,
+        "new_deaths": 1.0,
+        "total_deaths": 5727.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 260643.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5727.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 260679.0,
+        "new_cases": 36.0,
+        "new_deaths": 6.0,
+        "total_deaths": 5733.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 260752.0,
+        "new_cases": 73.0,
+        "new_deaths": 7.0,
+        "total_deaths": 5740.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 260800.0,
+        "new_cases": 48.0,
+        "new_deaths": 10.0,
+        "total_deaths": 5750.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 260843.0,
+        "new_cases": 43.0,
+        "new_deaths": 4.0,
+        "total_deaths": 5754.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 260872.0,
+        "new_cases": 29.0,
+        "new_deaths": 3.0,
+        "total_deaths": 5757.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 260905.0,
+        "new_cases": 33.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5757.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 260916.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5757.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 260939.0,
+        "new_cases": 23.0,
+        "new_deaths": 2.0,
+        "total_deaths": 5759.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 261002.0,
+        "new_cases": 63.0,
+        "new_deaths": 4.0,
+        "total_deaths": 5763.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 261055.0,
+        "new_cases": 53.0,
+        "new_deaths": 1.0,
+        "total_deaths": 5764.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 261107.0,
+        "new_cases": 52.0,
+        "new_deaths": 5.0,
+        "total_deaths": 5769.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 261155.0,
+        "new_cases": 48.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5769.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 261208.0,
+        "new_cases": 53.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5769.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 261217.0,
+        "new_cases": 9.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5769.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 261248.0,
+        "new_cases": 31.0,
+        "new_deaths": 1.0,
+        "total_deaths": 5770.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 261340.0,
+        "new_cases": 92.0,
+        "new_deaths": 18.0,
+        "total_deaths": 5788.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 261437.0,
+        "new_cases": 97.0,
+        "new_deaths": 3.0,
+        "total_deaths": 5791.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 261494.0,
+        "new_cases": 57.0,
+        "new_deaths": 3.0,
+        "total_deaths": 5794.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 261584.0,
+        "new_cases": 90.0,
+        "new_deaths": 4.0,
+        "total_deaths": 5798.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 261648.0,
+        "new_cases": 64.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5798.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 261648.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 5798.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 261720.0,
+        "new_cases": 72.0,
+        "new_deaths": 1.0,
+        "total_deaths": 5799.0
       }
     ]
   },
@@ -26926,6 +29509,293 @@
         "new_cases": 1186.0,
         "new_deaths": 25.0,
         "total_deaths": 16789.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 808002.0,
+        "new_cases": 1135.0,
+        "new_deaths": 31.0,
+        "total_deaths": 16820.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 808695.0,
+        "new_cases": 693.0,
+        "new_deaths": 13.0,
+        "total_deaths": 16833.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 809270.0,
+        "new_cases": 575.0,
+        "new_deaths": 19.0,
+        "total_deaths": 16852.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 809816.0,
+        "new_cases": 546.0,
+        "new_deaths": 6.0,
+        "total_deaths": 16858.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 810086.0,
+        "new_cases": 270.0,
+        "new_deaths": 3.0,
+        "total_deaths": 16861.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 810456.0,
+        "new_cases": 370.0,
+        "new_deaths": 33.0,
+        "total_deaths": 16894.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 811169.0,
+        "new_cases": 713.0,
+        "new_deaths": 11.0,
+        "total_deaths": 16905.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 811869.0,
+        "new_cases": 700.0,
+        "new_deaths": 15.0,
+        "total_deaths": 16920.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 812424.0,
+        "new_cases": 555.0,
+        "new_deaths": 26.0,
+        "total_deaths": 16946.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 812915.0,
+        "new_cases": 491.0,
+        "new_deaths": 31.0,
+        "total_deaths": 16977.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 813246.0,
+        "new_cases": 331.0,
+        "new_deaths": 4.0,
+        "total_deaths": 16981.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 813347.0,
+        "new_cases": 101.0,
+        "new_deaths": 2.0,
+        "total_deaths": 16983.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 813572.0,
+        "new_cases": 225.0,
+        "new_deaths": 12.0,
+        "total_deaths": 16995.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 813878.0,
+        "new_cases": 306.0,
+        "new_deaths": 13.0,
+        "total_deaths": 17008.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 814114.0,
+        "new_cases": 236.0,
+        "new_deaths": 14.0,
+        "total_deaths": 17022.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 814384.0,
+        "new_cases": 270.0,
+        "new_deaths": 8.0,
+        "total_deaths": 17030.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 814603.0,
+        "new_cases": 219.0,
+        "new_deaths": 11.0,
+        "total_deaths": 17041.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 814823.0,
+        "new_cases": 220.0,
+        "new_deaths": 3.0,
+        "total_deaths": 17044.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 814893.0,
+        "new_cases": 70.0,
+        "new_deaths": 4.0,
+        "total_deaths": 17048.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 814963.0,
+        "new_cases": 70.0,
+        "new_deaths": 16.0,
+        "total_deaths": 17064.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 815130.0,
+        "new_cases": 167.0,
+        "new_deaths": 19.0,
+        "total_deaths": 17083.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 815326.0,
+        "new_cases": 196.0,
+        "new_deaths": 10.0,
+        "total_deaths": 17093.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 815516.0,
+        "new_cases": 190.0,
+        "new_deaths": 12.0,
+        "total_deaths": 17105.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 815662.0,
+        "new_cases": 146.0,
+        "new_deaths": 7.0,
+        "total_deaths": 17112.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 815785.0,
+        "new_cases": 123.0,
+        "new_deaths": 1.0,
+        "total_deaths": 17113.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 815824.0,
+        "new_cases": 39.0,
+        "new_deaths": 0.0,
+        "total_deaths": 17113.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 815931.0,
+        "new_cases": 107.0,
+        "new_deaths": 10.0,
+        "total_deaths": 17123.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 816107.0,
+        "new_cases": 176.0,
+        "new_deaths": 15.0,
+        "total_deaths": 17138.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 816330.0,
+        "new_cases": 223.0,
+        "new_deaths": 13.0,
+        "total_deaths": 17151.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 816500.0,
+        "new_cases": 170.0,
+        "new_deaths": 14.0,
+        "total_deaths": 17165.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 816637.0,
+        "new_cases": 137.0,
+        "new_deaths": 1.0,
+        "total_deaths": 17166.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 816772.0,
+        "new_cases": 135.0,
+        "new_deaths": 2.0,
+        "total_deaths": 17168.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 816833.0,
+        "new_cases": 61.0,
+        "new_deaths": -2.0,
+        "total_deaths": 17166.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 816947.0,
+        "new_cases": 114.0,
+        "new_deaths": 6.0,
+        "total_deaths": 17172.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 817174.0,
+        "new_cases": 227.0,
+        "new_deaths": 13.0,
+        "total_deaths": 17185.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 817383.0,
+        "new_cases": 209.0,
+        "new_deaths": 5.0,
+        "total_deaths": 17190.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 817566.0,
+        "new_cases": 183.0,
+        "new_deaths": 7.0,
+        "total_deaths": 17197.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 817842.0,
+        "new_cases": 276.0,
+        "new_deaths": 6.0,
+        "total_deaths": 17203.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 818057.0,
+        "new_cases": 215.0,
+        "new_deaths": 3.0,
+        "total_deaths": 17206.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 818143.0,
+        "new_cases": 86.0,
+        "new_deaths": 0.0,
+        "total_deaths": 17206.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 818335.0,
+        "new_cases": 192.0,
+        "new_deaths": 11.0,
+        "total_deaths": 17217.0
       }
     ]
   },
@@ -29619,6 +32489,293 @@
         "new_cases": 210.0,
         "new_deaths": 5.0,
         "total_deaths": 3736.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 153300.0,
+        "new_cases": 246.0,
+        "new_deaths": 9.0,
+        "total_deaths": 3745.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 153439.0,
+        "new_cases": 139.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3745.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 153625.0,
+        "new_cases": 186.0,
+        "new_deaths": 7.0,
+        "total_deaths": 3752.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 153713.0,
+        "new_cases": 88.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3753.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 153794.0,
+        "new_cases": 81.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3753.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 153886.0,
+        "new_cases": 92.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3759.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 154023.0,
+        "new_cases": 137.0,
+        "new_deaths": 10.0,
+        "total_deaths": 3769.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 154205.0,
+        "new_cases": 182.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3771.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 154321.0,
+        "new_cases": 116.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3771.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 154399.0,
+        "new_cases": 78.0,
+        "new_deaths": 12.0,
+        "total_deaths": 3783.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 154448.0,
+        "new_cases": 49.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3783.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 154492.0,
+        "new_cases": 44.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3783.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 154557.0,
+        "new_cases": 65.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3789.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 154631.0,
+        "new_cases": 74.0,
+        "new_deaths": 38.0,
+        "total_deaths": 3827.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 154721.0,
+        "new_cases": 90.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3830.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 154784.0,
+        "new_cases": 63.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3834.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 154845.0,
+        "new_cases": 61.0,
+        "new_deaths": 35.0,
+        "total_deaths": 3869.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 154870.0,
+        "new_cases": 25.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3869.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 154902.0,
+        "new_cases": 32.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3869.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 154936.0,
+        "new_cases": 34.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3871.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 154975.0,
+        "new_cases": 39.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3874.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 155003.0,
+        "new_cases": 28.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3874.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 155041.0,
+        "new_cases": 38.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3874.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 155079.0,
+        "new_cases": 38.0,
+        "new_deaths": 7.0,
+        "total_deaths": 3881.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 155100.0,
+        "new_cases": 21.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3882.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 155119.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3882.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 155138.0,
+        "new_cases": 19.0,
+        "new_deaths": 7.0,
+        "total_deaths": 3889.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 155183.0,
+        "new_cases": 45.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3889.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 155227.0,
+        "new_cases": 44.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3890.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 155269.0,
+        "new_cases": 42.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3892.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 155298.0,
+        "new_cases": 29.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3893.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 155317.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3893.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 155336.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3893.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 155367.0,
+        "new_cases": 31.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 155436.0,
+        "new_cases": 69.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 155490.0,
+        "new_cases": 54.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 155537.0,
+        "new_cases": 47.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 155581.0,
+        "new_cases": 44.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 155613.0,
+        "new_cases": 32.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 155631.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 155665.0,
+        "new_cases": 34.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3894.0
       }
     ]
   },
@@ -32312,6 +35469,293 @@
         "new_cases": 79.0,
         "new_deaths": 0.0,
         "total_deaths": 1595.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 63255.0,
+        "new_cases": 76.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1597.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 63283.0,
+        "new_cases": 28.0,
+        "new_deaths": 5.0,
+        "total_deaths": 1602.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 63324.0,
+        "new_cases": 41.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1603.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 63362.0,
+        "new_cases": 38.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1603.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 63384.0,
+        "new_cases": 22.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1604.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 63407.0,
+        "new_cases": 23.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1606.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 63452.0,
+        "new_cases": 45.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1609.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 63517.0,
+        "new_cases": 65.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1610.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 63549.0,
+        "new_cases": 32.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1612.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 63601.0,
+        "new_cases": 52.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1613.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 63634.0,
+        "new_cases": 33.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1613.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 63638.0,
+        "new_cases": 4.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1614.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 63642.0,
+        "new_cases": 4.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1617.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 63665.0,
+        "new_cases": 23.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1618.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 63692.0,
+        "new_cases": 27.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1618.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 63716.0,
+        "new_cases": 24.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1618.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 63740.0,
+        "new_cases": 24.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1619.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 63759.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1619.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 63759.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1619.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 63780.0,
+        "new_cases": 21.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1619.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 63795.0,
+        "new_cases": 15.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1619.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 63812.0,
+        "new_cases": 17.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1619.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 63824.0,
+        "new_cases": 12.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1620.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 63838.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1620.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 63854.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1620.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 63858.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1620.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 63876.0,
+        "new_cases": 18.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1621.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 63889.0,
+        "new_cases": 13.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1621.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 63906.0,
+        "new_cases": 17.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1621.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 63921.0,
+        "new_cases": 15.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 63937.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 63957.0,
+        "new_cases": 20.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 63963.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 63979.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 63985.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 64016.0,
+        "new_cases": 31.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 64038.0,
+        "new_cases": 22.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1623.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 64052.0,
+        "new_cases": 14.0,
+        "new_deaths": 3.0,
+        "total_deaths": 1626.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 64073.0,
+        "new_cases": 21.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1626.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 64085.0,
+        "new_cases": 12.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1626.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 64094.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1627.0
       }
     ]
   },
@@ -35005,6 +38449,293 @@
         "new_cases": 97.0,
         "new_deaths": 2.0,
         "total_deaths": 1011.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 40934.0,
+        "new_cases": 63.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1011.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 40979.0,
+        "new_cases": 45.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1011.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 40998.0,
+        "new_cases": 19.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1012.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 41031.0,
+        "new_cases": 33.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1012.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 41045.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1012.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 41057.0,
+        "new_cases": 12.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1014.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 41097.0,
+        "new_cases": 40.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1014.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 41149.0,
+        "new_cases": 52.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1014.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 41196.0,
+        "new_cases": 47.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1016.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 41229.0,
+        "new_cases": 33.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1016.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 41260.0,
+        "new_cases": 31.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1016.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 41268.0,
+        "new_cases": 8.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1017.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 41272.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1017.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 41304.0,
+        "new_cases": 32.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1018.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 41324.0,
+        "new_cases": 20.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1018.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 41339.0,
+        "new_cases": 15.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 41365.0,
+        "new_cases": 26.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 41382.0,
+        "new_cases": 17.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 41383.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 41389.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 41405.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 41416.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 41435.0,
+        "new_cases": 19.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 41443.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 41451.0,
+        "new_cases": 8.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 41453.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 41460.0,
+        "new_cases": 7.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 41472.0,
+        "new_cases": 12.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1019.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 41486.0,
+        "new_cases": 14.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1020.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 41497.0,
+        "new_cases": 11.0,
+        "new_deaths": 4.0,
+        "total_deaths": 1024.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 41511.0,
+        "new_cases": 14.0,
+        "new_deaths": 2.0,
+        "total_deaths": 1026.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 41517.0,
+        "new_cases": 6.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1026.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 41519.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1026.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 41555.0,
+        "new_cases": 36.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1027.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 41577.0,
+        "new_cases": 22.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1027.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 41591.0,
+        "new_cases": 14.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1027.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 41600.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 1028.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 41611.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1028.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 41622.0,
+        "new_cases": 11.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1028.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 41624.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1028.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 41628.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 1028.0
       }
     ]
   },
@@ -37698,6 +41429,293 @@
         "new_cases": 231.0,
         "new_deaths": 26.0,
         "total_deaths": 9720.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 284380.0,
+        "new_cases": 307.0,
+        "new_deaths": 41.0,
+        "total_deaths": 9761.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 284561.0,
+        "new_cases": 181.0,
+        "new_deaths": 16.0,
+        "total_deaths": 9777.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 284678.0,
+        "new_cases": 117.0,
+        "new_deaths": 38.0,
+        "total_deaths": 9815.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 284828.0,
+        "new_cases": 150.0,
+        "new_deaths": 43.0,
+        "total_deaths": 9858.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 284906.0,
+        "new_cases": 78.0,
+        "new_deaths": 8.0,
+        "total_deaths": 9866.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 284931.0,
+        "new_cases": 25.0,
+        "new_deaths": 35.0,
+        "total_deaths": 9901.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 285054.0,
+        "new_cases": 123.0,
+        "new_deaths": 17.0,
+        "total_deaths": 9918.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 285193.0,
+        "new_cases": 139.0,
+        "new_deaths": 21.0,
+        "total_deaths": 9939.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 285307.0,
+        "new_cases": 114.0,
+        "new_deaths": 18.0,
+        "total_deaths": 9957.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 285382.0,
+        "new_cases": 75.0,
+        "new_deaths": 15.0,
+        "total_deaths": 9972.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 285434.0,
+        "new_cases": 52.0,
+        "new_deaths": 2.0,
+        "total_deaths": 9974.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 285449.0,
+        "new_cases": 15.0,
+        "new_deaths": 0.0,
+        "total_deaths": 9974.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 285478.0,
+        "new_cases": 29.0,
+        "new_deaths": 7.0,
+        "total_deaths": 9981.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 285536.0,
+        "new_cases": 58.0,
+        "new_deaths": 10.0,
+        "total_deaths": 9991.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 285561.0,
+        "new_cases": 25.0,
+        "new_deaths": 7.0,
+        "total_deaths": 9998.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 285604.0,
+        "new_cases": 43.0,
+        "new_deaths": 13.0,
+        "total_deaths": 10011.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 285639.0,
+        "new_cases": 35.0,
+        "new_deaths": 6.0,
+        "total_deaths": 10017.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 285668.0,
+        "new_cases": 29.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10018.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 285677.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10019.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 285690.0,
+        "new_cases": 13.0,
+        "new_deaths": 5.0,
+        "total_deaths": 10024.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 285729.0,
+        "new_cases": 39.0,
+        "new_deaths": 16.0,
+        "total_deaths": 10040.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 285752.0,
+        "new_cases": 23.0,
+        "new_deaths": 9.0,
+        "total_deaths": 10049.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 285777.0,
+        "new_cases": 25.0,
+        "new_deaths": 14.0,
+        "total_deaths": 10063.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 285782.0,
+        "new_cases": 5.0,
+        "new_deaths": 4.0,
+        "total_deaths": 10067.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 285799.0,
+        "new_cases": 17.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10068.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 285802.0,
+        "new_cases": 3.0,
+        "new_deaths": 0.0,
+        "total_deaths": 10068.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 285812.0,
+        "new_cases": 10.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10070.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 285842.0,
+        "new_cases": 30.0,
+        "new_deaths": 6.0,
+        "total_deaths": 10076.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 285908.0,
+        "new_cases": 66.0,
+        "new_deaths": 5.0,
+        "total_deaths": 10081.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 285927.0,
+        "new_cases": 19.0,
+        "new_deaths": 3.0,
+        "total_deaths": 10084.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 285935.0,
+        "new_cases": 8.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10086.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 285942.0,
+        "new_cases": 7.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10087.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 285943.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 10087.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 285953.0,
+        "new_cases": 10.0,
+        "new_deaths": 2.0,
+        "total_deaths": 10089.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 285968.0,
+        "new_cases": 15.0,
+        "new_deaths": 3.0,
+        "total_deaths": 10092.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 285994.0,
+        "new_cases": 26.0,
+        "new_deaths": 6.0,
+        "total_deaths": 10098.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 286022.0,
+        "new_cases": 28.0,
+        "new_deaths": 4.0,
+        "total_deaths": 10102.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 286027.0,
+        "new_cases": 5.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10103.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 286045.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 10103.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 286049.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 10103.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 286061.0,
+        "new_cases": 12.0,
+        "new_deaths": 1.0,
+        "total_deaths": 10104.0
       }
     ]
   },
@@ -40391,6 +44409,293 @@
         "new_cases": 61.0,
         "new_deaths": 24.0,
         "total_deaths": 3351.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 98681.0,
+        "new_cases": 121.0,
+        "new_deaths": 11.0,
+        "total_deaths": 3362.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 98765.0,
+        "new_cases": 84.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3366.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 98820.0,
+        "new_cases": 55.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3372.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 98878.0,
+        "new_cases": 58.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3375.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 98909.0,
+        "new_cases": 31.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3375.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 98919.0,
+        "new_cases": 10.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3377.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 98971.0,
+        "new_cases": 52.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3383.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 99023.0,
+        "new_cases": 52.0,
+        "new_deaths": 10.0,
+        "total_deaths": 3393.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 99059.0,
+        "new_cases": 36.0,
+        "new_deaths": 4.0,
+        "total_deaths": 3397.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 99097.0,
+        "new_cases": 38.0,
+        "new_deaths": 6.0,
+        "total_deaths": 3403.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 99113.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3403.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 99123.0,
+        "new_cases": 10.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3403.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 99135.0,
+        "new_cases": 12.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3404.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 99152.0,
+        "new_cases": 17.0,
+        "new_deaths": 5.0,
+        "total_deaths": 3409.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 99175.0,
+        "new_cases": 23.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3412.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 99193.0,
+        "new_cases": 18.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3415.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 99206.0,
+        "new_cases": 13.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3417.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 99218.0,
+        "new_cases": 12.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3418.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 99220.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3418.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 99219.0,
+        "new_cases": -1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3418.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 99228.0,
+        "new_cases": 9.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3421.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 99243.0,
+        "new_cases": 15.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3422.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 99251.0,
+        "new_cases": 8.0,
+        "new_deaths": 5.0,
+        "total_deaths": 3427.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 99266.0,
+        "new_cases": 15.0,
+        "new_deaths": 3.0,
+        "total_deaths": 3430.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 99266.0,
+        "new_cases": 0.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3431.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 99267.0,
+        "new_cases": 1.0,
+        "new_deaths": -1.0,
+        "total_deaths": 3430.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 99271.0,
+        "new_cases": 4.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3431.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 99274.0,
+        "new_cases": 3.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3432.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 99283.0,
+        "new_cases": 9.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 99288.0,
+        "new_cases": 5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 99286.0,
+        "new_cases": -2.0,
+        "new_deaths": -1.0,
+        "total_deaths": 3433.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 99288.0,
+        "new_cases": 2.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 99289.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 99296.0,
+        "new_cases": 7.0,
+        "new_deaths": -1.0,
+        "total_deaths": 3433.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 99300.0,
+        "new_cases": 4.0,
+        "new_deaths": 1.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 99316.0,
+        "new_cases": 16.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 99320.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3434.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 99324.0,
+        "new_cases": 4.0,
+        "new_deaths": 2.0,
+        "total_deaths": 3436.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 99329.0,
+        "new_cases": 5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3436.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 99329.0,
+        "new_cases": 0.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3436.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 99332.0,
+        "new_cases": 3.0,
+        "new_deaths": 0.0,
+        "total_deaths": 3436.0
       }
     ]
   },
@@ -43084,6 +47389,293 @@
         "new_cases": 156.0,
         "new_deaths": 7.0,
         "total_deaths": 4224.0
+      },
+      {
+        "date": "2021-06-02",
+        "total_cases": 127833.0,
+        "new_cases": 78.0,
+        "new_deaths": 4.0,
+        "total_deaths": 4228.0
+      },
+      {
+        "date": "2021-06-03",
+        "total_cases": 127924.0,
+        "new_cases": 91.0,
+        "new_deaths": 17.0,
+        "total_deaths": 4245.0
+      },
+      {
+        "date": "2021-06-04",
+        "total_cases": 128033.0,
+        "new_cases": 109.0,
+        "new_deaths": 11.0,
+        "total_deaths": 4256.0
+      },
+      {
+        "date": "2021-06-05",
+        "total_cases": 128121.0,
+        "new_cases": 88.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4256.0
+      },
+      {
+        "date": "2021-06-06",
+        "total_cases": 128135.0,
+        "new_cases": 14.0,
+        "new_deaths": 2.0,
+        "total_deaths": 4258.0
+      },
+      {
+        "date": "2021-06-07",
+        "total_cases": 128186.0,
+        "new_cases": 51.0,
+        "new_deaths": 2.0,
+        "total_deaths": 4260.0
+      },
+      {
+        "date": "2021-06-08",
+        "total_cases": 128263.0,
+        "new_cases": 77.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4261.0
+      },
+      {
+        "date": "2021-06-09",
+        "total_cases": 128335.0,
+        "new_cases": 72.0,
+        "new_deaths": 7.0,
+        "total_deaths": 4268.0
+      },
+      {
+        "date": "2021-06-10",
+        "total_cases": 128388.0,
+        "new_cases": 53.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4271.0
+      },
+      {
+        "date": "2021-06-11",
+        "total_cases": 128437.0,
+        "new_cases": 49.0,
+        "new_deaths": 12.0,
+        "total_deaths": 4283.0
+      },
+      {
+        "date": "2021-06-12",
+        "total_cases": 128478.0,
+        "new_cases": 41.0,
+        "new_deaths": 2.0,
+        "total_deaths": 4285.0
+      },
+      {
+        "date": "2021-06-13",
+        "total_cases": 128489.0,
+        "new_cases": 11.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4286.0
+      },
+      {
+        "date": "2021-06-14",
+        "total_cases": 128501.0,
+        "new_cases": 12.0,
+        "new_deaths": 14.0,
+        "total_deaths": 4300.0
+      },
+      {
+        "date": "2021-06-15",
+        "total_cases": 128546.0,
+        "new_cases": 45.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4303.0
+      },
+      {
+        "date": "2021-06-16",
+        "total_cases": 128579.0,
+        "new_cases": 33.0,
+        "new_deaths": 4.0,
+        "total_deaths": 4307.0
+      },
+      {
+        "date": "2021-06-17",
+        "total_cases": 128598.0,
+        "new_cases": 19.0,
+        "new_deaths": 4.0,
+        "total_deaths": 4311.0
+      },
+      {
+        "date": "2021-06-18",
+        "total_cases": 128624.0,
+        "new_cases": 26.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4312.0
+      },
+      {
+        "date": "2021-06-19",
+        "total_cases": 128642.0,
+        "new_cases": 18.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4312.0
+      },
+      {
+        "date": "2021-06-20",
+        "total_cases": 128647.0,
+        "new_cases": 5.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4312.0
+      },
+      {
+        "date": "2021-06-21",
+        "total_cases": 128669.0,
+        "new_cases": 22.0,
+        "new_deaths": 4.0,
+        "total_deaths": 4316.0
+      },
+      {
+        "date": "2021-06-22",
+        "total_cases": 128692.0,
+        "new_cases": 23.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4319.0
+      },
+      {
+        "date": "2021-06-23",
+        "total_cases": 128710.0,
+        "new_cases": 18.0,
+        "new_deaths": 2.0,
+        "total_deaths": 4321.0
+      },
+      {
+        "date": "2021-06-24",
+        "total_cases": 128728.0,
+        "new_cases": 18.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4324.0
+      },
+      {
+        "date": "2021-06-25",
+        "total_cases": 128737.0,
+        "new_cases": 9.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4327.0
+      },
+      {
+        "date": "2021-06-26",
+        "total_cases": 128740.0,
+        "new_cases": 3.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4328.0
+      },
+      {
+        "date": "2021-06-27",
+        "total_cases": 128742.0,
+        "new_cases": 2.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4328.0
+      },
+      {
+        "date": "2021-06-28",
+        "total_cases": 128748.0,
+        "new_cases": 6.0,
+        "new_deaths": 5.0,
+        "total_deaths": 4333.0
+      },
+      {
+        "date": "2021-06-29",
+        "total_cases": 128763.0,
+        "new_cases": 15.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4334.0
+      },
+      {
+        "date": "2021-06-30",
+        "total_cases": 128776.0,
+        "new_cases": 13.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4335.0
+      },
+      {
+        "date": "2021-07-01",
+        "total_cases": 128782.0,
+        "new_cases": 6.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4338.0
+      },
+      {
+        "date": "2021-07-02",
+        "total_cases": 128796.0,
+        "new_cases": 14.0,
+        "new_deaths": 2.0,
+        "total_deaths": 4340.0
+      },
+      {
+        "date": "2021-07-03",
+        "total_cases": 128803.0,
+        "new_cases": 7.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4340.0
+      },
+      {
+        "date": "2021-07-04",
+        "total_cases": 128804.0,
+        "new_cases": 1.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4340.0
+      },
+      {
+        "date": "2021-07-05",
+        "total_cases": 128809.0,
+        "new_cases": 5.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4341.0
+      },
+      {
+        "date": "2021-07-06",
+        "total_cases": 128818.0,
+        "new_cases": 9.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4344.0
+      },
+      {
+        "date": "2021-07-07",
+        "total_cases": 128827.0,
+        "new_cases": 9.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4345.0
+      },
+      {
+        "date": "2021-07-08",
+        "total_cases": 128839.0,
+        "new_cases": 12.0,
+        "new_deaths": 5.0,
+        "total_deaths": 4350.0
+      },
+      {
+        "date": "2021-07-09",
+        "total_cases": 128838.0,
+        "new_cases": -1.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4353.0
+      },
+      {
+        "date": "2021-07-10",
+        "total_cases": 128851.0,
+        "new_cases": 13.0,
+        "new_deaths": 1.0,
+        "total_deaths": 4354.0
+      },
+      {
+        "date": "2021-07-11",
+        "total_cases": 128855.0,
+        "new_cases": 4.0,
+        "new_deaths": 0.0,
+        "total_deaths": 4354.0
+      },
+      {
+        "date": "2021-07-12",
+        "total_cases": 128863.0,
+        "new_cases": 8.0,
+        "new_deaths": 3.0,
+        "total_deaths": 4357.0
       }
     ]
   }
